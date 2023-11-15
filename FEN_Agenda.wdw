@@ -1,0 +1,675 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Agenda
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Agenda
+ identifier : 0x2389de2c1409cc68
+ internal_properties : CAAAAAgAAAA31opGL0TBwgpNzBxRosuCTvR+SehY6q+BOUcHHfBum4kx0CKUSUwCpj3Zlau+HjSe2fWJMCNUxLm9dDkHxQH9owxfPKNES4nAV6ekZbufKd+pw2udVuOi0f0bhGSS+JBy/RUG3MC3fy4rDODhxuYvQdKf9xMacAbscR0AeAdC6r6+WMfnSFkbM61mUcZO9MvsnEgLLQoaWdZc4jVQXPTj8/dkOtauHqhdAnqi1YGWU2ssicmZ7WilC6TxR9S0fSWcysGYJm/dyy8BcwJdtDr9E3t+zjF4l77sWcy0aBwux1dYXPaIyjoDHvBeIB4Ha8mZpSlU2mna/3qq7lFvc2XosOpTySlzOF5mJqbjgIdnETE0JPRjclqOWqGiY3Hhfx6poDAkmxC/lOAoF90lkvokarACLkTJrEAUY9yOf6bafT3J8KMnLYZKTAVolM/w3U9NZZR3D6MGxEo4fg7XoV6dpD50QDgSVNKCn/B3wsurpdoVVifC5/i6FpHmNc7ljtDJiJMHdWy9LUhBqGoUnbUVi5I7M9qhEmUyCQMhzpWRRpIh218bxOl6EN1djQJZZVpyGzTgRZN7EZcA4JqoDy3q7WocsOgbZtG4uJsIJr+bFQXIjaXGmQ/f2Hy2dpuFcUun3hPBPFNQkl5R6XGlmlIebuor4gYFBlulR+WPAGMZnwehXcpRzhtHFLMCbitaYC51jA+qz2bT59BDDETxJBresAsLBpygCg4lQD2PJhuxEQhN5rz2idwuB+K89jSbDV8WIlwUqii38EbNDuct6IrvNGa/q+IJQNBNZYoLrXPSvlqjFEHyUCXJ2ktQtqCLwnp0yRdrX4aIRftFy/EJx78Tx+OOWKrhCpjgRYEKO/x2pnrFrQtA54TdEs7ywbsycoOZl156HR8jdSWpbZDXgKVPZC2C2shsNKp/zAyNzPs=
+ properties :
+  width : 1018
+  height : 773
+  widthClient : 1016
+  heightClient : 741
+ controls :
+  -
+    name : AGD_ListeRDV
+    identifier : 0x2389de2c1411cc68
+    internal_properties : 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
+    properties :
+     x : 20
+     y : 147
+     width : 976
+     height : 516
+    type : 76
+    code_elements :
+     type_code : 107
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE AvantCréation(rdvCréé est un RendezVous)
+         
+         // Ouverture de la fiche de saisie
+         SI Ouvre(FEN_FicheRDV,CST_CREATION,rdvCréé) ALORS
+         	//Réactualisation des rendez-vous dans l'agenda
+         	AfficheTâches()
+         FIN
+         
+         RENVOYER Faux
+        type : 135
+      -
+        code : |1+
+         PROCEDURE EntréeEnSaisie(rdvEdité est un RendezVous)
+         
+         // Ouverture de la fiche de saisie
+         SI Ouvre(FEN_FicheRDV,CST_MODIFICATION, rdvEdité) ALORS 
+         	//Réactualisation des rendez-vous dans l'agenda
+         	AfficheTâches()
+         FIN
+         
+         renvoyer Faux
+        type : 136
+      -
+        code : |1+
+         PROCEDURE SortieDeSaisie(rdvModifié est un RendezVous)
+        type : 137
+      -
+        code : |1+
+         PROCEDURE Sélection(rdvSélectionné est un RendezVous)
+        type : 130
+      -
+        internal_properties : CAAAAAgAAACYsXrQExIcnxscSxjtNtDTjObhPYfu/5YOHjRNrTp8pd4wv3KSLk7UQw1tNwp4knsl0sBLzBvsWvwhk7vzZhzDwlSU5Qmlv9fcwC+hvovMS41Vs4QLK/9U0uC/gHpffOcrqAxgQzNd+oINv8zQjOj1dsFSI0oFxeXwMu3h8i4VX+D/bBVSfgG20damaSA0D03c
+        code : |1+
+         PROCEDURE Déplacement(rdvDéplacé est un RendezVous)
+         
+         // Positionnement sur l'le rendez-vous Outlook à modifier
+         SI PAS PositionneSurRendezVous(rdvDéplacé.ID) ALORS
+         	
+         	Erreur(<§$0000§>)
+         	//On n'a pas trouvé le rendez-vous Outlook correspondant
+         	//On annule l'action de déplacement
+         	renvoyer faux 
+         	
+         sinon
+         	
+         	//Modification du rendez-vous Outlook
+         	mRendezVous.DateDébut = rdvDéplacé.DateDébut
+         	mRendezVous.DateFin = rdvDéplacé.Datefin
+         	RendezVousModifie(gnIdSession)
+         	
+         	//Et déplacement effectif dans l'agenda
+         	renvoyer vrai 
+         	
+         FIN
+        type : 131
+      -
+        internal_properties : CAAAAAgAAAAIwepg48Is7yuse2hdZoBjvHZRzdeej+ZeLiRd3SpstU5Ar4KiSEoAb8FZT4YIPpM5ugALYPv43uiVdyu/PoCjzoykBdXt69tCCrGz6HkeVeuPdU49ibUKgCIJkrQVNimxCn6KbUlr8JBf4fwAfPiF5rFCMzoV1fXAQv2Rop6l7xCvnGUCjhFGoea2GZCkn91M
+        code : |1+
+         PROCEDURE Redimensionnement(rdvRedimensionné est un RendezVous)
+         
+         // Positionnement sur le rendez-vous Outlook à modifier
+         SI PAS PositionneSurRendezVous(rdvRedimensionné.ID) ALORS
+         	
+         	Erreur(<§$0000§>)
+         	//On n'a pas trouvé le rendez-vous Outlook correspondant
+         	//On annule l'action de déplacement
+         	RENVOYER Faux 
+         	
+         SINON
+         	
+         	//Modification du rendez-vous Outlook
+         	mRendezVous.DateDébut = rdvRedimensionné.DateDébut
+         	mRendezVous.DateFin = rdvRedimensionné.DateFin
+         	RendezVousModifie(gnIdSession)
+         	
+         	//Et déplacement effectif dans l'agenda
+         	RENVOYER Vrai 
+         	
+         FIN
+        type : 132
+      -
+        internal_properties : CAAAAAgAAAAMxe50h36YSzd4h8Q5YqQ/mOLNieMKn7p6UkAZkaboEeLMaw5m1OfHGy0Vj8pQctO1CjgTPAP84vypcyuL1hRT+kRUNfEldxdQfGMVGjeAJ6kpj7jPDzOQFszjdEabcPOXXMg0twcxVoYIcZzgZOitrtkK+2rVfbWoIpldRnqx63xzyFke2lUKZTpaBaSgm9lI
+        code : |1-
+         PROCEDURE Suppression(rdvSupprimé est un RendezVous)
+         
+         // Confirmation
+         SI OuiNon(Non,<§$0001§>) alors
+         	
+         	// Positionnement sur le rendez-vous Outlook à supprimer
+         	SI PAS PositionneSurRendezVous(rdvSupprimé.ID) ALORS
+         		
+         		Erreur(<§$0000§>)
+         		//On n'a pas trouvé le rendez-vous Outlook correspondant
+         		//On annule l'action de suppression
+         		RENVOYER Faux 
+         		
+         	sinon
+         		
+         		//Modification du rendez-vous Outlook
+         		RendezVousSupprime(gnIdSession)
+         		
+         		//Et suppression effective dans l'agenda
+         		RENVOYER Vrai 
+         		
+         	FIN	
+         	
+         FIN
+         
+         renvoyer faux
+        type : 134
+  -
+    name : BTN_Rafraîchir
+    identifier : 0x2389de2c1412cc68
+    internal_properties : CAAAAAgAAACcbKQbvbDu9cu+RCHTevpvEwE3zD9CxjQMf3Nrclkig5QoV8m7daoOVi40Dn8CAQ8QQaJSVCC5uMRKBMrvycT6cyfvUpU6iU+dAcqtcQNKORXWcRxrh359TVykr9EKplLmbGMFP1tQ9i1o5Dx0s0ea8LeFPaJTNONO8WpgAcY8snzZSDjav+cdiIwbusFlyJ1b1qgYPtCpV+plMt7g8aOIvFfzC5TjbhTIG1A2c2BAUYOrXEaigdu8y3TG4f3X0O/0zCa9atICttqhM5UIa57WY0JNI5olXez7HynFVIyjUYC59q/8Z+bkWws4RO5lVzoiDmRPF7EOrO0VsUuxiPjSlsXDVM5c1+CJlM0iZN1crIeQSC/B7KvGsDeNWofq5WPPB9N1Bh8auezNjSk0n7NNARXS083RD7GZ5C8oFM+wzUQbtyvUevVkEHSN/qWY0INmmeXWs126dkcQwTMnvg4xAv5BVqZbnmAOOiht1bELVQkKamsSuijdfiHxQ2AFlSquCWhT4GlCwsl9gh7uBqLJUDG0aStG6jBJENDN2XLodzqM0A6aHKTLAgH6Xe4ihoDj4D1wUCefjGMzpk+5bOeLmBqToqqIZzA3+6faxFSkSF8HmIiWAZOW1giDbmnrQZVikmbCKdkdfzRDgwUMPrglifY61fvm7FjTX9dZ7RpWYTb6c1IO+kfaGh9nRtkm+n81rJK+OsAH
+    properties :
+     x : -8
+     y : -58
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         AfficheTâches()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : PICTO_MAIL
+    identifier : 0x2389de2c140acc68
+    internal_properties : CAAAAAgAAAAVXEox8Y9SyeyakpiM67Jz+kj0geBN8zR4ihm3tKEeF+456kDfyDHevB2Cr4JFVjsAMIyl+Y7Vp4df+TLvNOVZ3mC0MndMlItq9i6565qG0SZ/CsrfFcvZDjabeYJ8aNIujS73YR79JS69P+vSwLC8LM311ACO/WqewuHnh8veFhf513mjr/Zyam3mnzqoq4lIzHAfCZjgGyV8k3HaXrvDwED4SvooNV1djoxqYOCT1Mj7PhO0BfFfu9/LstmvtJuCxAZSOa5DKiEC3Zf0SONIRXrGR9onpPPGXtrXwapwGEAH9ZMiMjtL25zc/pdgg9wL0YbM1mX0zjeWvsocgyAZF4ynVoJSWlk805/+TB2XE3tImXsefOzBfX2Xm1lfkGKQ9I0E5tjhmApwvJ+5HVKeKc273zDThXtfPeUugst5KQVxB+Le8F3DDutMLQqAxCtj+7GBJlLHf+m8uA+0sVXNSXHU+Ra9WkLP1pUwFVthJeB391UdV7XkILymJR+fNjY1wONX+vIe0X74FV+UcYA7cH4PCzP2aEVc+TmraRGAeP4VEpRHPcFVX7ocA7Y03hcGV3Orehmk/AqY1OuWbxVRlOwzimUpGcnp4hS+R72AJDNQwz4qVBe+3ujRWWc22qq6Z2/QiNtPyyo5G0tzKpaWPhElICa1V0kZEG9vt/g0mygmrx3JlQeNPKv8hi4pfTtV2qQag1aPJDauD4Ob/vxMbaLjjHTgw9f+iTphlCfJI2iGz2xzZNdVMllCEDPR5dp9mZEv5VR/KppxglOsg8scGsg3kqL9t7UqI/o5tB8=
+    properties :
+     x : 799
+     y : 24
+     width : 46
+     height : 40
+    type : 4
+    code_elements :
+     internal_properties : CAAAAAgAAACwOMUY8818ok7KrOIu5WQbjhmeMngC46xRBkl9JAy6ZqH3ExGHpPQH/rDcv318b8pcHWeQRNi9hI7je4jymH59Fdtfn2QU2wuU2G+C+qcAlMxMqR+zURpbQwPs9w==
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         Utilise(FEN_Mails)
+         ExécuteTraitement(FEN_Mails,trtInit)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : PICTO_CALEND
+    identifier : 0x2389de2c140bcc68
+    internal_properties : CAAAAAgAAAAo1KhsVIBNf3SzOT/FkAiC4Q2gQfL6v8Fg53XzUiQiBeG7qDeabJMmKWgrzx3h66cwuzDfaTvgxrh/tg7rGLwigKJnL79BD1PAhAnR05Xb4ardnaucMYN8+sEazOPK4WxCo8NA7g6p9NCJfBC+1jq/1DGB63sc0oDw8Hw2sqHaI77eitUuVtQlX2jMiC+Tcd9xot5ZbFraa4PZFHWivDfuAFLg2b2xA6wLRJB9/TjqUBkgojyPfRl8rkmS5d5OOwAU0JYeTGspL0SBX3zL/gyEBkBsg4RoRQJGy6QykKFxUnkzmud8ZNR3dVmiqJKZUhgV/Eb//CI9eloFpn0NmunCsoUaqEJu3Z5bajrjJ3o0cEEZPxm3zjNAPdRyCiFHBHQrKr9ObNr8zN0Ma3xBimpuktE5cntFRkYf/89cZ8U9ekH/Pjg2DZJsiWVbVFS9CzcrrL2+oS1AjZKyMApQTn1Roh/1Va0OwszfqB7dHeWh0T2NL2HgFGJWEgollJ8SN0y8fe1FOcnLRJhVv4MTUrUgrme6b7b+c5fnICglGDiFh3+90yERARTDbbs4lAGs/i+UPvJ+IsEP9AFxLuIrWdhL3uVO3ejThEjN/MDyha0ZbQudFz+0JNjuU5HxMr/s7gKKtiof1DYdnKYIr1t+E3VFW9crmcECCjmTBWbnrCr89iT61nTa/fyAA2VpYir6FS5AgM+FQNzL/l5PG3BKwOPKkORA+rP/yxuIgXoCg0Zu+19z8EafXdNptl4aLbVvakD5Y6pkBKVWgKJ5GnpYb4Go4nsXsTQ2m7UH3FfRTKnNlz05
+    properties :
+     x : 849
+     y : 24
+     width : 46
+     height : 40
+    type : 4
+    code_elements :
+     internal_properties : CAAAAAgAAACwOMUY8818ok7KrOIu5WQbjhmeMngC46xRBkl9JAy6ZqH3ExGHpPQH/rDcv318b8pcHWeQRNi9hI7je4jymH59Fdtfn2QU2wuU2G+C+qcAlMxMqR+zURpbQwPs9w==
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         Utilise(FEN_Agenda)
+         ExécuteTraitement(FEN_Agenda,trtInit)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : PICTO_CONTACT
+    identifier : 0x2389de2c140ccc68
+    internal_properties : CAAAAAgAAABBsGoRsUgKL5lZC+TdJP5+zfA7KmOARcHleOv8v4ZqGkLiMKdWZqjAMcz38d9JL7eDJRhpEur2yrdqspJNel6zbk+lrGEEV4ABvWiNkKIB55TwAz4P3bQAGgXrtxXxV+fAlly1q1uEUnvj26x2iAWNfa5JgEL62TvVWaI6nU6mbNgPyd9VrCiF91HzKF8+Wvy85P9FsXk6ts2GtKi5Sfue4SOQbwHhC4nfVFzptz4ljPyXPGANJ0yo7DLTvewIjrErInspXflWFO15OX/fnzzow4sdJRQ35al8PhBC2kgSPPpLqmEKsf00K3MSKa8FcGxyDMODDYYri7YYHTe0pMYGZjLha5wq5FrCA/MWjAVsLgiQMFKIxZA2FOCTJP9asK5hAt2facJDsfiK41iK83YTb6Bn/sSkhOnYZK5gFwFSq4VXQp9s2DszAxiNPmD7VvEje0Ra+dvzWrwEFLRSXe47dn9CFXozrikAZUlPT5kRG8f8hMCO2MvGdDE52YVA5xXWNvdkQ+w0uvV7O732ZM6E9rnz6E8SSKuaYk6OggbCbWUR5ogfgSGTI44dOPNOZYlBhyJ+3DV+vdsOCjSJTTbFSCkTrAHrlzc0tEAYypp7nA8OODtc4b5cDX2pVyF8kmQe4g1WoGwDzEBTey+S6oJRSCPstt/9HjYStUBw3NC/Ct2sPvhLVtAXoOcqPxRa686fQGmPK+mctsxwViQfB44nEqsFwMsBjG9ZBjF3RP5KaqOWVFfGtLTFfh1AZCydd+GXXsvWn4tV/CyPlvJGjZh+TqWLBheH1pUfv1XehSturQ==
+    properties :
+     x : 899
+     y : 24
+     width : 46
+     height : 40
+    type : 4
+    code_elements :
+     internal_properties : CAAAAAgAAACwOMUY8818ok7KrOIu5WQbjhmeMngC46xRBkl9JAy6ZqH3ExGHpPQH/rDcv318b8pcHWeQRNi9hI7je4jymH59Fdtfn2QU2wuU2G+C+qcAlMxMqR+zURpbQwPs9w==
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         Utilise(FEN_Contacts)
+         ExécuteTraitement(FEN_Contacts,trtInit)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : PICTO_TACHES
+    identifier : 0x2389de2c140dcc68
+    internal_properties : CAAAAAgAAABZe5Ua1W7+gQz+uEGPm/4z1mfA6MA6l/4riks50WD+aYyorEMuvE+TENnEtQEFq1mQozwq1hseRDBVj4vTQyPxq6ZxP2N5S+9zmn7VSQmHXDcDy/vY06RAsEle9G4WANYjfTTz4c8ig4nq6mi/S1K/rbAnTxAPIWndEiu5rFHGxogfQ1LlbwrzV65Mjv9uYv8NYVz3CftPWDtwFcnFaMefsDUryPn/qHYsIMReG6Fjnfs/sU/v/sYBinjZM/TRr6hrqBYgB1oUsz1eONIr/CHuIrml3ZiAbHg1+N2kWrdpSg8A3e2ZW+XOi1eePupoFvYMV0v9nSqckonUpj/jX6rzUpv/95VIYhoQ/a0qnNo5RJ8MJQx/TGhzvwGglTt1TWXDqBW2i/GT5GiI+7Dm6MKD7R0m8g9wlyR6JYi10INiWwJUTJbwBiYCu+Obbhw25dzBvSuglIuqNOJ6rwmq/knQ5YPzhnQ41v+pPNuiqOQmn48Q3VZQ+JorONczymRkblErwwGjag6i6pkutluwhGc+vGdwNO10ofabpzdUXTILMipFimKmGSqFuV+JDnZgj9n+nzg347NYNKsVjjmkAmKLPKq/KIQjfQmfdFu7cSQf3B28HR73hyjggH4t/T2XBK6/s+Hl6Jlz0Nvi2oo3tMxtN7tmHQLyjk8gLAzgiWJl/EUr3joJsGM5UepDjjGQKrAp0wbKogI1TAV3JzFZumJw+AGYr+zRtw/ydmY4axrzUlJCMVusGUql6PpJE13IKznDfriFM79J3lL0BsopTPnN14aLrDWK+WmpnSAmQg==
+    properties :
+     x : 949
+     y : 24
+     width : 46
+     height : 40
+    type : 4
+    code_elements :
+     internal_properties : CAAAAAgAAACwOMUY8818ok7KrOIu5WQbjhmeMngC46xRBkl9JAy6ZqH3ExGHpPQH/rDcv318b8pcHWeQRNi9hI7je4jymH59Fdtfn2QU2wuU2G+C+qcAlMxMqR+zURpbQwPs9w==
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         Utilise(FEN_Taches)
+         ExécuteTraitement(FEN_Taches,trtInit)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Fermer
+    identifier : 0x2389de2c140ecc68
+    internal_properties : CAAAAAgAAADRtss8BN6SO0xpumNeFmH+maOQ5gigzsU+Dz9Mbz9lCASi1rx+XIaJxaMTcAHkjfQ3Bd9Jfl1C777557SItkpCGOWG5GI7c8w6HUUma0sg7JXWWdcLBX8YCtefkZDnuFZZBNxiGAacEZ84vVKV3Z7t8AUEh4KYLNh0xFuv6QZPstd8S6V3H2ggDqAIFmR+XShgNEzIpx4+Npgct11OItPpq4LO1Mirfve8s79Q8D4IjThqBDLGvBrKq9E2hL9NhdrW63fHdW4JvusZnJMeZhx4UEkuJPzEvZb5NhlAnGKIOCHBIt0DZb21jP/00jT55edMtpA/NwyKx+ktiHjgl9vmgLbNgHTKQnbMMLKV8Ed7QnHPRMBwIl54/Nj/c7puLdmxJ1NhLP/AdYxRedyQqogIYydi6tlqf9B57pxq0IgpgyZCoLotNODW9MfjCrtFGYRo1w/xLHTuF8R4dF9yYWD5lrPIJsQCFAD3AjymFl8fyAR/EuCYcYaZTqndQNoNyPizl5Nbvmk58Ky+ER8SHjFsQc9Hh4Y5+B63oZsaOF6yiXJN5OUNa5VRiZA8s8+qggNmzrkuNwfD1OBCVfK3Ic86fdyQjSCiaLjYZKTtSBnL8hVEshbZ6/OybSMSbyJDsvKjx4CXTP6WP0/OLKt7fssQz03vm7bHYYQcJ6ZzMffQKCGI0nxObhxlSiUEwAKs/NCrNAJmGs1I+VXb2HD/D0Giiec8gClC3XaBT7Duhow3UVfZz5gxmVzEEhtHGLZ6e3iJwXfnLv6JiyLJFYjADJ+EOPVeQ6RFkyPilUQ5TuAs6jaofKxknu7Lx/Uw4jwiEZXR0mFoMUr3ZH0wuuD+y7D9PA/ik/RItPFPlKozMFpuKtX9EudY4up060EeFkUNKlqxqp+Qh33JRndy/4M7p6/P6WIMkjVB4gFHSqvX70ckPJ/iiGyRzTsc1cor5vG/hPwwMZ7EaEcj9p58ePcXhzTPrS4gjglSn7E90NN1CBHSZaSKx0OFWY05+ZIFnI+KDc7oKlJkhYCCwVk5LbsBfyodVFcWWlrGnacjQ/MJCvbedo4eSB62kCQ/HJNB3ulD1Fs=
+    properties :
+     x : 915
+     y : 692
+     width : 80
+     height : 27
+    type : 4
+    code_elements :
+     internal_properties : CAAAAAgAAACwOMUY8818ok7KrOIu5WQbjhmeMngC46xRBkl9JAy6ZqH3ExGHpPQH/rDcv318b8pcHWeQRNi9hI7je4jymH59Fdtfn2QU2wuU2G+C+qcAlMxMqR+zURpbQwPs9w==
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         ferme()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_WD_OUTLOOK
+    identifier : 0x2389de2c140fcc68
+    internal_properties : CAAAAAgAAAAHgRXTrK9Kj+2PCtOugPBBCI4C1eh313TvkPf6GohuFM/2xQ/7BEOq6e3fNZK0RHlr7JRWkpGwXdzQXhvQdnnW/oYvXa7hcA5NwIIdK+4pgt41SGmY6s654V3OqS5jl4lTXDi/LAZhnAhNOY2N1oxOM96X0cX6+XOzpm6fR23zoO/HvBfMUKmZxRyv7jSW4ohsVrp1bsV+E4vHZdPRmJ+YJMpwsQYveYWpuL2WAsUsTzWHJ3/2MwtEh73hjsWWxuSNyZv8H1KnBDGYcZguHulhFs1jKeX8fmMP8D/s+2s+b1GEYKhhqC44pEfuV3zqwOofU2u1cLNHms8xsKEUGmSD+pSqQyvDXirf72ZHQFmOq5W8v/AVOFcDhVvIivsWicT6piW5gBya8Yhi1zgFS5v6mEDPYVKP37t0oTdSCUL/uX8AP8T7Lh0Bt1HusyjCaPNa2ba9zDDlg449PICfDJYiZaEORBY7nqshBTm/QwJo
+    properties :
+     x : 20
+     y : 24
+     width : 187
+     height : 40
+    type : 3
+    code_elements :
+     internal_properties : CAAAAAgAAADnCRRXwryD0UfDVfEDitOCZT5B+Rsl1odS6+XHKICQLBsRCTnR0uDbgM787YngPhu/UCRpP+12H5cc5FXl5UFCKPZinHk/AC7Lj5Zbkz7rgdtToCikoGsqElK7IA==
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Titre
+    identifier : 0x2389de2c1410cc68
+    internal_properties : CAAAAAgAAACJFqzQSCCd/gZY58z0xuEn9Apgif92HRkKJOxJZQZqoJRH7Er7/Li/MIVvT9OiIJjTCdMgYxLQF5qeKd69oi267XXI+LvT1J071PHBne6SHDZUz+73RITldoKxQBO/q+loIZoagBwQnY4mAkEd13WBoWGLYahqYGdnPwoirpSLftdXkjeiECHLEgPgu00e0Up8EM2YnGUwDFVW8mxoFQwScX8k7MKSe7oXwLW/SKg8Z8zDRj9fYx4iPgtBUAJwvMZOTVKqmDi5buwc6PUX/h7Sl0+37+GffIRAcOxRx9s2ShQl94DMBB0dvUhvONvHU5RPbyOZlss1XGQj7sIrOS9MAOZU2V9UgNcXc4uLb3S7YZCyeztrxKZTpAOpy6g3QDUhh6ZQK1j+iwR2yJZDOqlm+eS27vU3+T3XdGRi5+6buANY8Io7zbauhslDtwvIUVRhzFzSieF4Sxm4SqVYNIuaf+4abIXh2OG3hwk8CNx4IfyreiJAROQPKesV8aYOXTYxGJ7GrOl/gOMJayMfHzVKoTM1p9RGjyITv3RUde3Y0+S8evanQ2uBQil4n5I17n0=
+    properties :
+     x : 51
+     y : 80
+     width : 945
+     height : 36
+    type : 3
+    code_elements :
+     internal_properties : CAAAAAgAAAD3eQRHMoyz4ZeThUFzGkNyde4xact1hlciO1WXWFBAHOuBualBohBrUC68LclgTmvPgPQZj13mjweMVCW1NfHyeEYyTMnvsF47P8Zr485bcSsj8Fh0kFsaAkKrMA==
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         //Exécute le traitement défini dans le modèle
+         ExécuteAncêtre
+        type : 14
+     templates :
+      -
+        name : LIB_Titre
+        identifier : 0x1543d33d011742c1
+        code_elements :
+         internal_properties : CAAAAAgAAADnCRRXwryD0UfDVfEDitOCZT5B+Rsl1odS6+XHKICQLBsRCTnR0uDbgM787YngPhu/UCRpP+12H5cc5FXl5UFCKPZinHk/AC7Lj5Zbkz7rgdtToCikoGsqElK7IA==
+         type_code : 2
+         p_codes : []
+  -
+    name : BTN_Nouveau
+    identifier : 0x2389de2c1413cc68
+    internal_properties : CAAAAAgAAABxUpRsNq3rkk4sDSsb1jeJdrENMpGVoN3NkfxaB1R5IwUhebFp9v02ShN3p9ng2ZhIexGgsJwK/wHfjfoUHpKt8Fjjnhp/5kidBpx4KKw0ijCzXyzR5Gbit7HovBxoPn4YYqFrrmwlQLyxkkbdn93Cl+VIcN10gNX8zKCITS5xt7LGstn+nemUKtFNmJ9Yg99e0Wcx9U7ng7sUMxvXp0JUcg0MTvdKpj6cP+gxQhKLrMUGxeFOWUUIRAtT998nxxyzIWqJtN5KI5cvO0LhnC7q+PPzN4bD0x2Ks65GBsUyzykm4QrM0kgiFtR+3pZ5thR5ZcDshHFXWUTlj/QFBA6OV60lWHR8++vZ/uWP6I1wfYejsvXQ5YJ8ZUKJkolHY0sg1QGb0TU6+XSfu5qZum+MCWjOMrwgknrmBayy8BKCYy5rk1o6FPy0+b7bXyy6oaqok1HmXuD6YEqqCa3Uj9WgLpaeDjREBaE7he5m+1/QdQchw9sTfPJFtvWhSAYFZ/hOurOrRERncWejUzI06dXFIM8T6l2ij48cD0O/MSJ3TEmYI70dRra8YvWK4AwxkatTuO2xnD/i0a6aLuTyN5VycZeu333GpuXNRPNE8rDw059nu6+yzfvkQprxT1JYbsPsQuLI+o+URk2qQ/5frgH04t3hncoPkBQdB920KXZG5sBugYXOfDx+t27koJozHFPGFFfzjv/ZBuuip9CuoI0bj5whfXqeLvUfkxtZFiXoLkE5DILxRvIn+66CPbw7Wbg8DQ8dsW8BVDkrCWin30ikMXWoERaJL1327cTuKFsdWNP3LaXvWr03pJP4vIGnQJbNeHvMbycXWRlVCMGvmreIPmTTvP67VxawtQZjZ06tGo/Bb6IkpJuX3XBvBhwGX6Ma5FYAU+BqV9h06964aRmm1wW0Jl97j4Hmp6Dp3dwvqcQGdVQF4aVHfmSORxIcVnwcGaMFWsdL9wtJnuv1yh+qgXGQiijEk8LAaaI1/YAbHQXkCOpO
+    properties :
+     x : 20
+     y : 117
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         rdvCréé est un RendezVous
+         
+         //Récupération de la période sélectionnée dans l'agenda
+         rdvCréé..datedebut = AGD_ListeRDV..DateDébut
+         rdvCréé..DateFin = AGD_ListeRDV..DateFin
+         
+         
+         //S'il n'y a pas de période sélectionnée, on pré-remplit les dates et heures de début et de fin de rendez-vous
+         si rdvCréé..DateDébut = "0" alors
+         	
+         	hHeureActuelle est une heure = maintenant()
+         	
+         	hHeureDébut, hHeureFin sont des heures
+         	
+         	hHeureDébut = hHeureActuelle
+         	hHeureDébut..heure++
+         	hHeureDébut..minute = 0
+         	
+         	hHeureFin = hHeureDébut
+         	hHeureFin..Heure++
+         	
+         	rdvCréé..DateDébut = DateDuJour() + hHeureDébut
+         	
+         	rdvCréé..DateFin = DateDuJour() + hHeureFin
+         	
+         fin
+         
+         // Ouverture de la fiche de saisie
+         SI Ouvre(FEN_FicheRDV,CST_CREATION, rdvCréé) ALORS
+         	//Ré-actualisation des rendez-vous dans l'agenda
+         	AfficheTâches()
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Modifier
+    identifier : 0x2389de2c1414cc68
+    internal_properties : CAAAAAgAAADEX046ON52OWyfhxQxTidxxUUHdnN6BbPk7FB6MRrP5l3p92oLE1DzHIOkl1PbGlTsa5PvVWPJbLMaoLXjUM747Wm4kKyCcEx47wrPcuqcOsY5aeFFiURmLbuP4OUlLBibH5UYcHzB7qz+cnAXS94bwzjyTVtItHhX6vqD7yI5jVVMZxrgRTxQbay5Bsv0emp8W/tQudKN1atKWqWLGI2/4wTBrz1Ia5mULZavKr3qKsVmJJeM0DKTy8UTQGvM7+lg9K5s2Fjoxx5qlIXpxidZqQ1Ilo5u7xFRjVqKYsgGyebV460L0KYEFxtyh3LqdYIjgwEsP5J6jICqf105E+7Krw52Fr7T7s2VivgF1OaRka+Fhw3WeYTEUmnYGmR18O/qIrFR0ItshERSEsVJbmmg9eJ7qXs9jIp6snVT+NTtt5oRTjq9RKKDwyxIOSN1Q16GhW+ae2NxMPETmDbzQ9oE9lR2FnX/ExCttMcSadhcDPm83CmpdYokKz4gKzLr9cFYQrbLxZsva+v4z8xjP6zuofk2ecSKneLZw1sW65YvsQbBFW9SIhAc0odLV8/Eva7/GQDRZYWenVVNq5q/HHbFbNgTEdOitlNpe3840zPTRln/nyB3GxxecfrJQlPZtm4jbUU7drZMUROixVkYPQ5oKaOtmB2DdkgMVhBOIXuA30nbnR28KnAGe1H6+OtkmeEKp/YZwlMC4BckP6qh1A0NATI004tFwi98CaskfIjWfZ6ue1cH+VyQ8Qvz8WxFmpZvDRxBI7i62sElYZvlrtzx1xaKR1aAKmN5kqBXrt6DdfBJKCXUMrUXFYNu+uDPSCr6FZkFmWK0mTQ7mgHCHERgWe1WEvdtCnJ86pXGpNV5EQUnaFjb1IVqNpQMr3iksXRZnQJn09Yg62cSIYu05wWaIdw6H60w8tJuqbWX3JnI5Um7JgDRQpTERk9p0OotPsv6C/SO59HVlna/kth9exyyJnTThec+T0EhdmZ2qAB98SA=
+    properties :
+     x : 106
+     y : 117
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         tabListeRendezVous est un tableau de RendezVous
+         tabListeRendezVous = AgendaListeRendezVous(AGD_ListeRDV, agRdvSélectionné)
+         
+         si tabListeRendezVous..Occurrence <> 0 alors
+         	
+         	//S'il y a un rendez-vous sélectionné, on ouvre la fenêtre de modification
+         	rdvEdité est un RendezVous = tabListeRendezVous[1]
+         	
+         	// Ouverture de la fiche de saisie
+         	SI Ouvre(FEN_FicheRDV,CST_MODIFICATION, rdvEdité) ALORS 
+         		//Ré-actualisation des rendez-vous dans l'agenda
+         		AfficheTâches()
+         	FIN
+         	
+         sinon
+         	
+         	erreur("Veuillez sélectionner un rendez-vous à modifier")
+         		
+         fin
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Supprimer
+    identifier : 0x2389de2c1415cc68
+    internal_properties : CAAAAAgAAAB3MDqi4MrOVOKF3A+kM0YKfeAxvwQQsRP31Y3bK9Zij81iBHOaIWRHVqmkZAdBPpNKdXiYRIvc8oudgnkHlqIkwQyqKZUv/Svwx0xv+c83CUBMv+SHFib/JqJQcgXWFWWb2mMbNbNEvlF+jkQNqcLB/Frpq0cbtHoooGWdge6TneaZ6ZqHZ6HUUvavYSTpXaqvnazqq8xE9PuYTufLMtbKZv4EgiqmJ1TXqyOH04ZJSpkC3UhIdrqyK8U+TkaDfWvR3FkuU4j/NY/DCZq2VnWhtHKDr5WzAcOaFRGVhAi/PWQhZYb0dkIs+m2RmFlTcekHOfQ21lHzaFPBj6s5daaDB6ixPY7OBtRxvhvnbb7JvJBfry8hZL+NLNDD0PcFcIZ40MFIJmzscOwP0nux8qQIpBmBxU4Q9tqI1FeXT5oipK65Bk6gQdNG/47SXgqZnO4Uk1ribJO/Xm4L/VgjLcc8+Z+4Z70jVSq9RGF69etQ6RvEhNALgbP0azEeS1ho5JwdRYK5PAx4j24Iz9r5PIrxbYfN8LqYPh5EX8MqNeWdvZkRxzvEV26jI9Ww1LXazIWYI9flgIH+sMb2fXjeP6o8jP19wJcP0B5uIC/fp+uTNfLdEAlPxm0FwEz5rje93tTcl4iHELPZzn6/jjZfydnRADYh59MqbrVfPYTFPbJun3BxIJ84HbKI1K/3tJ6WygHs7Oll+4mNWcrJuw9LdxeXvTRytM/Z5mqJPpTeckJOKq32Po6rt/OkRjyBJgR71c6thdhIFrgprrMEXIrNa8Q4BcOqNTFXQKa8Q919Y8YeIILVIr9VD2a6R+zQjOortc6wBuJjAaMRJLkxtriOn+V7FO1tQDfgqykk5ST0HIV5q1PZKTqXMeiitcShGZakXmUPnb6+tF2o0OgnyCwE9YYfdBGsHNlOje9UEO+7LYT2DFbjiXbhI/7jI9riMg/46oMqzOYFhwpSCvjhABUQegRcvltIpF0r0Kq53iQmEYxx4pqBiY+o8w==
+    properties :
+     x : 192
+     y : 117
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACjqmKsN+Uu3clCI022Hp5LynwikOW78mVzrJKodAO3TwyBhe0qyc/bNDu8cXNmpa7jt00bdu/sD5JH28hZrRt+yKSSKHdsihiwIV8yolYpUE4Dpu6gLIqV2FEAKIyirTfA/FuvQWT4iyUfa2D9IHIuJVRoOAJ/rKSVNq63kwUsLw==
+        code : |1+
+         
+         tabListeRendezVous est un tableau de RendezVous
+         tabListeRendezVous = AgendaListeRendezVous(AGD_ListeRDV, agRdvSélectionné)
+         
+         SI tabListeRendezVous..Occurrence <> 0 ALORS
+         	
+         	
+         	rdvSupprimé est un RendezVous = tabListeRendezVous[1]
+         	
+         	// Confirmation
+         	SI OuiNon(Non,<§$0001§>) alors
+         		
+         		// Positionnement sur le rendez-vous Outlook à supprimer
+         		SI PAS PositionneSurRendezVous(rdvSupprimé.ID) ALORS
+         			
+         			Erreur(<§$0000§>)
+         						
+         		SINON
+         			
+         			//Modification du rendez-vous Outlook
+         			RendezVousSupprime(gnIdSession)
+         			AgendaAffiche(AGD_ListeRDV)
+         						
+         		FIN	
+         		
+         	FIN
+         	
+         	
+         SINON
+         	
+         	Erreur("Veuillez sélectionner un rendez-vous à supprimer")
+         	
+         FIN
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x258182bce4e6ee55
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABGOd50DrSIrf+NVdYRHr96vfzJjtvw6RPBK4UeaC/JA9Gd1eBIin5IB2fszLqf55/HjIRAUsjMGA6kvFEvTi20dzX1y6sjCgeoILyEflJIU8pzBhxIiC8UBHJLclUCrb4=
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      AfficheTâches()
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : AfficheTâches
+     procedure_id : 1407900639108451432
+     type_code : 14
+     code : |1+
+      // Résumé : Affiche la liste des tâches OutLook dans le champ agenda
+      // Syntaxe :
+      // AfficheTâches ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure AfficheTâches()
+      
+      
+      AgendaSupprimeTout(AGD_ListeRDV)
+      
+      MonRendezVous est un RendezVous
+      
+      rendezvousPremier(gnIdSession)
+      
+      tantque pas mrendezvous.EnDehors 
+      	
+      	MonRendezVous..Titre = mRendezVous.Objet
+      	MonRendezVous..DateDébut = mRendezVous.DateDébut
+      	MonRendezVous..DateFin = mRendezVous.DateFin
+      	MonRendezVous..Contenu = mRendezVous.Notes
+      	MonRendezVous..catégorie = mRendezVous.Catégorie
+      	MonRendezVous..ID = mRendezVous.id
+      		
+      	AgendaAjouteRendezVous(AGD_ListeRDV, MonRendezVous)
+      	
+      	RendezVousSuivant(gnIdSession)
+      FIN
+      
+      
+     type : 458752
+  templates :
+   -
+     name : FEN_Agenda
+     identifier : 0x1543d33d011642b2
+     code_elements :
+      internal_properties : CAAAAAgAAADoAG1QO5W06oby5JpWPazTFpEW2nA666S5PrGFvHSyrll/u+kvTMwvlljiFY3sB2J6lW+YDNC1/LYb46AK8KblPUM3t1wc4xPsYOcKQm84TAQE0Wd7iVITC1u0Lw==
+      type_code : 1
+      p_codes :
+       -
+         type : 180
+         enabled : false
+       -
+         type : 230
+         enabled : false
+       -
+         type : 11
+       -
+         type : 12
+       -
+         type : 17
+       -
+         type : 13
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADlO3iYqxD1dfJRNCR8SHyF5aN3jyKH3gGwbP+3xbw8a6CUpSNj1R/nbm/1eSKYcq/FSZW3GIbCMtCI9KFUKdkfuj3wVdgPcoj+Y55+swxEek84GG45Wkh2eKyk
+  original_name : calendrier_tab
+resources :
+ string_res :
+  identifier : 0x1db02a1b00368efb
+  internal_properties : CAAAAAgAAABy1N++tYOTCp+fTMt2Oowt0kygBb9Dx8eKAERFUbhdmf/PYYCyzvxBqZ9Jd77KLqFh4Q==
+  strings :
+   -
+     text :
+      fr-FR : Rendez-vous non trouvé.
+     index : 0
+   -
+     text :
+      fr-FR : Confirmez-vous la suppression ?
+     index : 1
+   -
+     text :
+      fr-FR : Sélection
+     index : 3
+   -
+     text :
+      fr-FR : Aujourd'hui
+     index : 4
+   -
+     text :
+      fr-FR : Mercredi
+     index : 5
+   -
+     text :
+      fr-FR : Jeudi
+     index : 6
+   -
+     text :
+      fr-FR : Vendredi
+     index : 7
+   -
+     text :
+      fr-FR : Samedi
+     index : 8
+   -
+     text :
+      fr-FR : Dimanche
+     index : 9
+   -
+     text :
+      fr-FR : Mardi
+     index : 10
+   -
+     text :
+      fr-FR : Lundi
+     index : 11
+   -
+     text :
+      fr-FR : Mars
+     index : 12
+   -
+     text :
+      fr-FR : Avril
+     index : 13
+   -
+     text :
+      fr-FR : Mai
+     index : 14
+   -
+     text :
+      fr-FR : Juin
+     index : 15
+   -
+     text :
+      fr-FR : Juillet
+     index : 16
+   -
+     text :
+      fr-FR : Août
+     index : 17
+   -
+     text :
+      fr-FR : Septembre
+     index : 18
+   -
+     text :
+      fr-FR : Octobre
+     index : 19
+   -
+     text :
+      fr-FR : Novembre
+     index : 20
+   -
+     text :
+      fr-FR : Décembre
+     index : 21
+   -
+     text :
+      fr-FR : Janvier
+     index : 22
+   -
+     text :
+      fr-FR : Février
+     index : 23
+   -
+     text :
+      fr-FR : Vous devez d'abord sélectionner une date dans le calendrier.
+     index : 24
+   -
+     text :
+      fr-FR : " "
+     index : 25
+   -
+     text :
+      fr-FR : Vous devez d'abord sélectionner une tâche.
+     index : 26
+   -
+     text :
+      fr-FR : Tâche non trouvée.
+     index : 27
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

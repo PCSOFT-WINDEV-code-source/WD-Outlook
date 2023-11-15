@@ -1,0 +1,212 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FENMOD_Fiche
+ major_version : 28
+ minor_version : 0
+ type : 18
+ description : ""
+ subtype : 0
+window :
+ name : FENMOD_Fiche
+ identifier : 0x24cf993c35d2328c
+ internal_properties : CAAAAAgAAAAAN9UAbGiekb0LQs0nLvosWxt8FhsLUJrakR+yp8+wEv28LtVg00cXERhTJyzMqRapgNN/8Rtj8YEXpRSfCncxVaIAqsw6K8n3xP+CEpWp9iBa/b5wgpEJNsbgrFjnKLleA138eAItboSb50JjPiuY9p5F1D9BgBRwwVoVYdXa8rFgxt2gXlNSYqdSOSZucprNdpa8pusUhEmVBrvuSUwFGWLao07fxkLBev8lHwVw9TnoUE6ekygfefFXCx3wUCK54Jpmn/o7Oz3Nz2Wbsm+5QnDy1K47j6zdxiHpzHxDTGiU+5K/rBQnakPU9yILDYYat4VIdVdILEc9JSepSnjDChHm6oCUnvB/0cNHKEX0pYSXJSX4znsM4vX148DfI2MuO6j8nwM3qJZFpR7bqYqYsIx9BcSDYc9aNTw6Atw6sVEATCFxCcU/d2BUmGte2itP7BD8LMfMkoz7msl5t2ANbaA4KgAMRiGr+43rPA5dZrb52ViIIXmfCu0dkjqmK5OglFyaPCzqia4n+nkgUyjRdoXxY1ooFjaKu7e8RLLE14h8CkFddcFRjN9AY278j36MsXMhGwDhnHLekEAAruSBzboeFT9DiQFNianmNdZGPKrdE3hoNcPRvKZoguyUGUoxTtJ/SZ8Fh6W2AMK6AsjhPZaY6uAKVyljcuDAOjCIGI8eun6s6FQ17IbMSPznvOV5hqbt1Nfd3AFT8vdA1T6GHUA3xPxeUXPN8H4kA/E/+Le9RoGXKfhF66C+RcThG3JtMW71gQqXsZJBnq+ujsCiAwhw+tiG7hKj61IY6cO2UWGum1UQOKQdsHIIUL5UguWTXRm6IqfxAA==
+ properties :
+  width : 616
+  height : 674
+  widthClient : 614
+  heightClient : 642
+ controls :
+  -
+    name : BTN_OK
+    identifier : 0x24cf993c35dc328c
+    internal_properties : CAAAAAgAAABAuOHXV4wPJ/QKcauUKtzfnhE2fB2oJtDXYT3IgNw3z0wtzY0bHcLToT1XltTENKIGkz/hnEoKzCmvBKcCc5gt+dYxv2/0VmtWUUp2bP/PV4Zj2WXsC78ciGtWjmZvdojLeQA1/S12HRZL093c4hl8qpg7bFwksWz+ttgGLc1XOonxA5BlvWaidiLCmnkjpAgcUhqlio/LdIEVjsA55D3+3IzPJMtTd3ygSnMdKtycHoGfCi3+sqkyEi+YjEmbJy7f8EKA7eA31lonrKkxZAIglXXRgv/Qs9Qu405DbaXu1Bz5QVqph534FZ04PjBf+He2cLuI+ML4FF578/d5DbReNInidyoGfW8+4GsDMy6RmhoTAoArG+2qnfQc7APClz1JqtcHSOGORhPBAYdAatzVVyifDIT3SPE35XsRCfc9Pi5AmDPq3Oan5NVztsIYqROXvkQnNb3fbHEyzKiGD8FJjLOGY3II8QUaOciZrv3Vlv52UFigqt83f88PYusyNZIVbcZ544a2AKxYBByBocE5r29/myIpJfOYcRmhjLyZrfK1zdZp5J7u5leLvxZdBUh88bVUIg0EuT7kszNSs9E/Jlw4VN/COr2l0ggDbgLhsVHPOviz7pvNlYybvtZ6lGSAaHpVHi8UX/Qpc98iuo1hDlQ/Fcr3Dj0R4ZElT34Vr+7UW7xSluWw9QlW4DVY+TfUV9A+1tK74y/vDFBXXh3ADxv4JXzxyfAQCdsWr4onTaxj4d/k4SJ2J7lnFrGDLEX7VMknUYikIUaiKp3/UpI+uG+4V47NyXsDnl1Nom+RcK4PcGQGuLEo81OOMvD2iEUBt++jKa4KBR0Jcyorfg6IFNl2Ae7xUQH3HUMlqgASvi1umgs0XhBPrwTzgi3WM0TVtTFsmL2Kq2SiMSZ+rgf9hY2tcoDr0kfgj+H5TlsKa/hwaA8Wztib4MJjWms17VDQRHIQ0zfTThSREbUy9TMm04qtmFS4xckpobk=
+    properties :
+     x : 430
+     y : 594
+     width : 80
+     height : 27
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         
+         gbOK=vrai
+         Ferme()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_ANNULER
+    identifier : 0x24cf993c35dd328c
+    internal_properties : CAAAAAgAAADuGMWxHeAtYrKS3Rov7S7tBAHgzZdKgJt8pgJ/lQ185VzFZq0fN4D7aP6X3Rsd5hdOZ5xw4GuRLfBrKO3nshrAr6iv6z0fLO80krd74YNqERNiCKA3Pdd5Ri7n4my3F55ox/B0Y+JYILN2MEcYIzXB+mj/uXQ7xZA2+jPR2OdZ4eYEx5O7PmiuENLFHS1/j6nktlbCFTm+b1IfT1PZ/y2S0A+YMeGMbAtCb0UT091Kd2rU6nDmT6VuPIRefXEUkxgA6OTQiyqswPoaR09Mtrj2gYX6N27xMT56/Vj+p/aEJk5FwyhxtK4JPxYirCQqs3xdVYCjtOjS3hIT5J5+GsHRwoP/XGihxm2C8H4cLceKvCKy0jRW4nz25C93HVqC2foEBINLFnYdROxdbInf1rtkvszgabseA9GnbY0+I5wi38XA4LGJD46HAS2uyxuuFj1beCTOSx404NAkhC0uRsqIEeQ5A+O9dR+2/OlKz+TLGJAUUHukK7dI2wUSEwdCNFK3OOBgC1jwaHbZjwbdhyIUKtY90y+W3jis3smDj1zuM4MQQqaHInmO1dGQCyFeRkXfG+qX2xX26pqcmxfInBXkFYaT/8gLFjZcO+Zdiy0wAmPHxbzWE+kSgbAr9kpigLe+1WgF9GOq9opQT+nnHsHQbvz5TKdlXckpxdTgaGrc5E43TDJ9cd1XUejWAYbSeu9LPYH1mJwAiqAGNrfrOsFVk6dFEcxErNQX+THdwmOKGNOyDs7biHbRjvP/iA9ue8ITOwbiYRAkzXzcmY82AyPAPumPqrhEYgJShTpb8LNrvGtNhMcBP3tNFiAxlUmOJxnRVQzTQyvW+/GUyiRJyRjLhSCmVJUedUCUHJfsMI/3t0qedoqF/YPqqmNtRwnYMe+muU6Mr+5MqkQ=
+    properties :
+     x : 517
+     y : 594
+     width : 80
+     height : 27
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         ferme()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_WD_OUTLOOK
+    identifier : 0x24cf993c35e3328c
+    internal_properties : CAAAAAgAAAAsbdJ6eUt2zXIXw/iLZcLNtTTm11lIA0aHuTcELPWQ8/unoVMyGZexdeq84qmX3p3DrViwu5Z3+7eOa2CKMugRurcOKN7xmkc5JGf1V+qjuOe6tVC7LCH4tP/K9arcp+7roPjhV4Umejot2BJZjlIkGlbribvW/eMWYHn8xuF24oTLrWxOUdqrOjmvhGP5T0UMQ+3b6NHEy5pgBzIkWJxR5BMgMhpvf8fYoJC4cHxU8QMfHVCZe6ucmaasaBsb9KI6y+501YwXvDiOekt6Y5UDqxWEPoGcyUzheuxQVO4Lutobqfc6bchvWrajSU952d2MTjOxN1X72B1VylJd4bttrrc0Kt3CpntOZWBGPtwXlalHpc+bvSbR+f8K1o0SkNgkDqoLVqn1FA==
+    properties :
+     x : 20
+     y : 20
+     width : 187
+     height : 40
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Titre
+    identifier : 0x24cf993c35e4328c
+    internal_properties : CAAAAAgAAADQji3Sl+Uws9jTnqBb36P3StFY7qlbXDMxOr+E91GK327ri2GI6TSSw6CMHXd+u8zyJ0ySfO5uJ0x2wymqHqJAVlXxNBiSbDlMkQNq3/zl3P4TODqdczBSoPQr3EQLBXdY6FsAdPv0cttBL+qhSyfoM5QBQgGppQ90E9TRDCkAUC8Mu6lUWFNjNmnArqBPvur06gQ6tVk/mS+zA9XugZPmYFG2j/UXok53O8RpspMBsLIMgzbK7crLFNlrhM0R0wFGVmn8M7/uWxEYISMXTTpIstmr8ttoqj2MUnmWL/JGq0NljH/syS5iiY/iyY0UAzY+FhOOYtVKAtRcAXf7IuaMJWsHJwYnGImrwFxOxEBhAaqnQK+SsHCTQtTk9M07CMMv3fSQZHTD
+    properties :
+     x : 346
+     y : 21
+     width : 251
+     height : 36
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         //Exécute le traitement défini dans le modèle
+         
+        type : 14
+  -
+    name : LIB_DateModification
+    identifier : 0x24cf993c35e5328c
+    internal_properties : CAAAAAgAAAAocVtv5ei5j2hJTgLRJSLGWAWsSG6dQAzOjt1GsQHpVOkRzRBZXOc/O9pg72/EPbJBJ6Vsn8BEy6bbCxN3RWmnTGxL0MCAG60rsKpuXTXCYWC6zMNG1a4ZznSbHJ3vVgGsaJexnAu8aux0ugdWGhBdc3kOAtcaYv0wJF6pKHrv0ubxeu12RaprHqS22t8Z8XPR5ZhN2p56netSpzbZerNU0nUN6QWEPt2KWRNA6cuDmsNOD272Xh6s9jVGlAQCEAtKKjQigsmvLT21ItgbgrcHU+F/xLm0ITGj3HGNIXykrOIGjNFFoQ7l7oN3+2NYhZcJohVCiF2u2AjEjafT6uHwAk9bfJwRQwQB2oPtXbWeyrEr7Ds8wB5W68JuqflIzfGDjbZvhvLPEfbdcWhXLb9zweWxSwOQ+yWZKA0SiD9RlKC3DoohkbyPxXMq/QW/a7UrMMWTcCj08mPhP2cTzzcZbCRRnxfXovHgVHf5tvCOAxbY1/Ow92D5WYcN+NVjpMWFf0WbqiSTkAnyqDFlGPBrsb8UtxVw6sGIKJ2tdAyIM/a2jT2OvBo34i4qA1UVgzw3sMUz88A+C6ShvTQJvbwmvIS3SEA0xzRuamp8J15mXcl0LzGOvYTlqIbNovbQOrsmpTcC2JtjjpuVKZSxJV8=
+    properties :
+     x : 320
+     y : 121
+     width : 277
+     height : 28
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_DateCréation
+    identifier : 0x24cf993c35e6328c
+    internal_properties : CAAAAAgAAACQSZdRst/XTmiKFj2qbFkI+CJIw3FqbECWjZySZZTUCPyj2iNr3A8yRmhx6Cc5/sZ3qCn2D/NvzJpQZz4SkamrHzNE7/C1T1C1WAskY0YV7Va4Ug4go62vZkVuOUfzh3rzzg5loLUmPyI4Eg1Cu6hsPYUzwP+k896JoQVZlqFEQIIbMNz7XEES/WgAXw9ONcQka4eDqY/4M0mB58sBKFw2IqfPD6DnqdYJ0MmCVeIob4ekeRt905h2uoJf+9FfMiXR04qd3BXtOMYrrJQ6tmKjYbuaZV74Q0TtOBhTCE0mX8m5x2aRYk+by1POKo0ZLGEgdaEf2hGMh0Pe1qBoSsAEVLlYklw9CifEwnwcKBNTxAWtwXWMWhOVimAdLHAcCKGd35G7bN4C8g+1/HMGe0wlXascUU/y7kQIGtydh+HgAkybIdKz5WOo8jPX0v5hoCVVhsC7umqxhRZ3En42l6wLDCQi0xH3OVjjUvguVz7lLwyumg3cbXVWgmM4haaTTbWzVwIdbrDA8XaUhyxU8k+9QWnD+U1gbyppvAgOkQRZW2RI4H/upAhImYFaphyJWyJVUzdEctX5SCtD0NGhCDGps4tZejqls9qoxn3NBamGrhFX2mpZQd96W+wB2tbRpzrOK/7yeEGu2ViDjw==
+    properties :
+     x : 320
+     y : 84
+     width : 277
+     height : 28
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x258182dce88a6a1d
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAK/RL4gsAUeUv5YYLNUssmWdjVqkfGg/lHqa9c+sm+UZcVaVyegJR8wXnigrCZ66FKDwHLVf15qVVjDQAYrYhNkFmtj/eDgoPACJDomjZsd+4fuuh8XPtgUA7X7sm+afo=
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      gbOK est un booleen
+      	
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+      renvoyer gbOK
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAABB2hG1VF9Q2hcigeHhjSICidQ06IloYgRxwtaqf4xocI0lXDxsqs3UCdaig5zPCArUAG/Ih51ehvS9xo1kLJY=
+  original_name : contacts_fic
+resources :
+ string_res :
+  identifier : 0x14cf99340229130a
+  internal_properties : CAAAAAgAAAA7wCugPa3Llh29up4VO+T++wa3OrewuQ3WP4NJV47trUqhlqE=
+  strings :
+   -
+     text :
+      fr-FR : Saisissez le nom du contact à enregistrer dans OutLook.
+     index : 0
+   -
+     text :
+      fr-FR : Saisissez le nom du contact à enregistrer dans OutLook.
+     index : 1
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

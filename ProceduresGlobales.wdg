@@ -1,0 +1,171 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : ProceduresGlobales
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x113d6e170944f4ff
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAABw8Nnan0sA6QPIq2z+GaDJ5YgGn+CC1BcSuc5X5apDKEu+4eBq4HbS4QOXtrdbYrftS5aH5E0fjBoyp6GlwlSfwcgyQ5b8Ww==
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : AjoutePieceJointe
+     internal_properties : CAAAAAgAAABe73HpRxj+cbaq50BnsRM26AGmNbonoaSFi8rkcHGgR84b2ZnvA6HkgY5jIaBIPnHsW0XgOkSBAH/njC4/JhGEwVcrdEjWj6J/QI5x6wYPpHN4M/YdSOcsbgAFnoP+f07boCrxkt8s4Q4SemGF
+     procedure_id : 1528816849111266685
+     type_code : 15
+     code : |1-
+      // Résumé : // Ajoute la pièce jointe demandée au message en cours dans le tableau temporaire.
+      // (Ajout effectif DANS OutLook lors des envois)
+      // Syntaxe :
+      //AjoutePieceJointe (<sNomPJ>)
+      //
+      // Paramètres :
+      // 	sNomPJ : Pièce jointe à ajouter
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure AjoutePieceJointe(sNomPJ)
+      
+      // Nom du fichier sans le chemin
+      sNom est une chaine = Fextraitchemin(sNomPJ,ffichier+fextension)
+      
+      // Copie dans le répertoire des pièces jointes
+      fCopieFichier(sNomPJ,gsRepTempPJ + sNom)
+      
+      // Elément déjà présent ?
+      i est un entier
+      POUR i=1 _A_ Email.NbAttache
+      	SI Email.Attache[i]~=sNom ALORS RETOUR
+      FIN
+      // MAJ du tableau initial
+      Email.NbAttache++
+      Email.Attache[Email.NbAttache] = gsRepTempPJ + sNom
+     type : 458752
+   -
+     name : SupprimePieceJointe
+     internal_properties : CAAAAAgAAACMnl/jXWKrSdt8sCh/GN8DwGijRvYhN8U9zNrXf9EcUIyxLcpCBcfv+5k/yGU62LIpZNTd23AFk3ac74rdgMhKZ9n18WSRaL1pcnI6WLe7QbPl/Nx/jgbmxZZ/eJN6c1mGiDDmZnf+dt+W75uinFyYYPtIO7x9AWu1Xt+o4ykW/ruwkR258NiCjR5SIVhu6bHBjkQZKQ==
+     procedure_id : 1528817394572174350
+     type_code : 15
+     code : |1+
+      // Résumé : Supprime la pièce jointe demandée du message en cours dans le tableau temporaire. 
+      // (Suppression effective dans Outlook lors des envois)
+      // Syntaxe :
+      //SupprimePieceJointe (<sNomPJ>)
+      //
+      // Paramètres :
+      // 	sNomPJ : Pièce jointe à supprimer
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure SupprimePieceJointe(sNomPJ)
+      
+      i est un entier
+      
+      // Tableau temporaire de travail
+      stabPJ est un tableau dynamique de chaines
+      
+      POUR i=1 _A_ email.NbAttache
+      	
+      	SI PAS Email.Attache[i]~=sNomPJ ALORS
+      		// Ajoute l'élément au tableau
+      		Dimension(stabPJ,Dimension(stabPJ)+1)
+      		stabPJ[Dimension(stabPJ)]=Email.Attache[i]
+      	FIN
+      	
+      FIN
+      
+      // Recrée le tableau initial
+      POUR i=1 _A_ Dimension(stabPJ)
+      	Email.Attache[i]=stabPJ[i]
+      FIN
+      
+      Email.NbAttache=Dimension(stabPJ)
+     type : 458752
+   -
+     name : PositionneSurTache
+     procedure_id : 1528824004527661592
+     type_code : 15
+     code : |1-
+      // Résumé : Positionne sur la tâche dont l'identifiant est passé en paramètre
+      // Syntaxe :
+      //[ <Résultat> = ] PositionneSurTache (<sIDTâche>)
+      //
+      // Paramètres :
+      //	sIDTâche : Identifiant de la tâche sur laquelle on veut se positionner
+      // Valeur de retour :
+      // 	booléen : Vrai si on l'a trouvée, Faux sinon
+      
+      Procédure PositionneSurTache(sIDTâche)
+      
+      bTrouve est un booleen = faux
+      
+      tachePremier(gnIdSession)
+      TANTQUE PAS mtache.EnDehors
+      	
+      	SI mtache.ID = sIDTâche ALORS
+      		bTrouve=Vrai
+      		SORTIR
+      	FIN
+      	
+      	tacheSuivant(gnIdSession)
+      	
+      FIN
+      
+      SI bTrouve ALORS 
+      	RENVOYER Vrai
+      SINON
+      	RENVOYER Faux
+      FIN
+     type : 458752
+   -
+     name : PositionneSurRendezVous
+     procedure_id : 1528832886521114680
+     type_code : 15
+     code : |1-
+      // Résumé : Positionne sur le rendez-vous dont l'identifiant est passé en paramètre
+      // Syntaxe :
+      //[ <Résultat> = ] PositionneSurRendezVous (<sIdRDV>)
+      //
+      // Paramètres :
+      //	sIdRDV : Identifiant du rendez-vous sur lequel on veut se positionner
+      // Valeur de retour :
+      // 	booléen : Vrai si on l'a trouvé, Faux sinon
+      
+      Procédure PositionneSurRendezVous(sIdRDV)
+      
+      bTrouve est un booleen = faux
+      
+      rendezvousPremier(gnIdSession)
+      TANTQUE PAS mRendezVous.EnDehors
+      	
+      	SI mRendezVous.id = sIdRDV ALORS 
+      		bTrouve=Vrai
+      		SORTIR
+      	FIN
+      	
+      	RendezVousSuivant(gnIdSession)
+      FIN
+      
+      SI bTrouve ALORS 
+      	RENVOYER Vrai
+      SINON
+      	RENVOYER Faux
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x10f6cb0d07835beb
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

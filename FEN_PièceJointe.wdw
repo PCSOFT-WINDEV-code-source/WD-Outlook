@@ -1,0 +1,580 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_PièceJointe
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_PièceJointe
+ identifier : 0x2389de1e13be955a
+ internal_properties : CAAAAAgAAABeQ0PtAmF6AOEWx2rHWcQBfS6uZPSrA50UK6OKRAC3gnRePny8iDDAi+1cSbhezugBi1AuAkQ6m/UUwiP6jQ1iLEq0E1c1AIqhJsGbWSa8QY10i5FbhuYvxoCLKMqYBX9speTLYQwdnzsvXskHJsyUwHaVhfRPFkkhOkw25HnsMIaj9tmUwKOJ9VfqZuc5UaQuoCpGEqBGD5x2c2BpA+zLzJfeT9LvgjFkoYijzqhXVOA44JXmRJ0gl9xi2LgKP4Ix66P3OtAPEspkY+V1a32u3PC1PqSueY2w7oyRQA2mHpFzBrugWHIcakqRnpyJgl2nB+HVJYb/Umf4EL3bK7aMLYlriFr3brEYbzEL1CsTM1ARHL+hfcSIeoDHpmA4vjv3W6fFk4CgipDSizxzVutMe6YqH/n7MomToB7TVxzsttZKshqp5ieMFVUMwwunew1M0NEdWHKQKATVwPjDYqsTUwHyKS2IFMmqYCoD/fiUvPfkxK4XvVtZyMNCfutHXR80TdecgdsHonsyeywEueYFgZkHEgZG5pgupkGRrfiAzDQDeTgMRXGHjA5bXU87HwYs9nrXIEPnu3pjpEeRPb1nyFOwILgnoLFq4vzFisZe57LX6DoBsmu6Oz6eIc5PX9OUyDuq/LApnNmyEhzlYWm8ft3P1zmJ8LyPbvd3rnR9fMW7suP42BJBHMS7zeFwCKfih3oGHv6/GxSdjuHa3JzgI0q+HEaSmvv/oU9igPbvpvFYYknDInEBtFuUL8B0f6gccJVZM9ePiYq6UlAC3nEiWzM4p5VxlT5Bb8naoaXuFrqqrhqQA6QUzgcwD4aGWYw8ziamGBbO66T7AZFxtwlTasaDXrwjPxgtVrV7dXr0NIgrad/+diyB91lkX6HIUNxA9keEZMkriQpBw8mpc5zr0o8cg/33GqxYgWrYSA/nQ/CXPEH1C6rKw5oIo1OFgPG8KYBhfU9/jPzh0/PXJAhh4mxCp8/Cbo+Oqlb1dHGPvRHRGT4ZnY8epre2bC+z0wjnc7H8jSJIbHrWO6nlUG4v3YC2RqTh94zOaYf+w5yH6lIqA/m8LpiP5TMoxO7GdhOX9lMk
+ properties :
+  width : 616
+  height : 674
+  widthClient : 614
+  heightClient : 642
+ controls :
+  -
+    name : IMAGE2
+    identifier : 0x2389de1e13bf955a
+    internal_properties : CAAAAAgAAACa0cngeO7G1v2g8M8cphYVlfXogbJPyELNDYZjNX1GsDOAINOlGBXz0v5/Oeoe0C8yoRlD9NKDE4oLBtmkEuxqOPIZX4n/iANERQ0cZIHWSyR+6Q0b/OJIgsq4uW1Lfwx4kVzNLR5fE4JUirZvxNOIYYAUTJpVfz/7Y6Mty0aRDmpAmzlMKav6sVHNoiX/t1EKH6JCZL0oGfl2fyxthe9JzNS/SM1Yp4GDjE1WdjtKsR4klktE2DzgddBi+AhqrK6XXpk87U/NYUWd1zeQeyXupfbBb0TKhbv6T8jNOH3K9h1Mno+P4K/c7Xt0TZNx4RRUgfPxBzs+T1amPttfRA/ka+uC4wqYU0kwBazRo7nnDeSYVV8zeJmTmgO+WXlVM/QYqiMY/MUc6XA/0sTvq3cBiOiFRL2/cPSi0s4evjIzfhXYdA/ARFNZueKiW844b8/tRonkQ+oVn/l6yqtBT4n2l3j2arFFXj2JieMoB6AG+WdOclwrq0RbB7YumAYxd4bHkiRNgynst5PEoG4n4xE31BYUeWdj6/uDJ5v5Lzl8Rzh1fcUHrxNA9LsvIA65bdw9FDp0ID78dn5dQ/75l2IO3fUPwI1JLi967npyBEirMpuCEqCot+9UPzlRLXfelZY=
+    properties :
+     x : 20
+     y : 80
+     width : 63
+     height : 63
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : LISTE_PiècesJointes
+    identifier : 0x2389de1e13c0955a
+    internal_properties : CAAAAAgAAADv6HFmKZGtJrJk2eZfCA8xva8EuDbDUPq5AynElYLMnLZ49umCQkLAYhBKOmGFNeoIxDvriTPbuTKzydYwzzn3YfsyYJRJ7Djt88R4TObhtmSyVyO+eF+BL6eII2T7ZT0Me7tXy6k92hUvT9OS/99utVI4UBnFDBwAZuOAFijZtoZXfXDA5zbfZLn0uROGtjpAZsnx/DOdARc9PJAVYlRKbabdZSdB7Sy63akf1ezdziH7UpP76MrshNGehLBM/FtaX+ZEUQ1iV3vHrhf6XiZSlILt+WUO18WBGifbxaSef1AOEKhnLbCVYRSCoSC4XG+0KCDSRYw1CMCjVXi9CMxGoSYfXqfTN3FPmSdvzRgBQoubpFPjRxdKLhGIVkDPMZc3eZSXPDNGyD3uM/KDF665jVQ0lq9Z6IZ71KqpfoPOjGwINALsFxNNcEVV1qdMXGHvHqx8Li3RI62f/+3Gl2fZk3dGD2KrB2Bwbwmb9vQvEIWtlV8F+wjZAYNKXCCFb7lflKLAHSI8AjkSS2I5eh0/tSG2bKkVb7DewTymPwZzVByxDm5EaFMVOZiRlBUxXj7SSzim3lHNiGKORQys6y9ruayF9WnTyoLK2hxFoFFHFCp3IDBvcmQdgh2DT3i4fsDnyuNBRI3AGDpAWknKm0nHD1ooDXAFQ5ozrVSwaAvoIzNFv/Qm1iKVWURATZtHMvdwzK3ODpedwj1rb0ywmaNANkht6xLGFjEM/0htmkY/6bnjYgV27untbGjPBpk5XfF7BPnfNZvc1acWUIgshUUJpRIHZ1vldNygc80dgDgmb3BpedlUnTtCREL9U2EPFliZJTXxbn+goRKuZWaCulKUpBsaTl1fVRpCEneAo7zE2231oEV4KBX5khR2lJeHwRMvwRM1aEeNCRzIdwxOZlkU3/BmnIpJrCrFnndAi1y9pYvod16umz5RUwNTaSwSXNZx1pNCugHX51L5BZ7SyFKqmmKl8/PQ879dTEtbUfJWMM055Eijdj3K/odkXt9mT0pW1/obL/dFjGlu86Os9+ToiWoVCr6JkI5s5sPUgZBS3rCTbzxHe+Y6cNK4NA7iyRgAtB4TElQmNiOv6jt8Ww==
+    properties :
+     x : 89
+     y : 80
+     width : 475
+     height : 542
+    type : 7
+    code_elements :
+     type_code : 7
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+  -
+    name : BTN_Ajouter
+    identifier : 0x2389de1e13c1955a
+    internal_properties : CAAAAAgAAAAGCUcRyNCJCEdUhl27xfLZOWzpY/uqf3tE5ly/4xG45SclgnlhoABX8t4hF2lrNaTYJY057qCP2ziD/cSmZMWRhIWeN6H2enU3BjUa8XFAYEaUHQa/no+TaSj9tcPFS8EwxPEhnXo5HuXfY5YvO/ZkP3eH5AG1jkRikYhTg8queDBzZlyO/N6HSEBF545Z9J2i9F9C8TsTBobWzu3Pv95FY5+lBD83J0vaV6uwCaTQ4AGOTXcrZJds1h7/Sfj/NEIe9ZYjc66CO8TNTEhA050V0utg6Hx+mw8bFyC3ajXDED5qiL9fUarhSaO8gtZqQLmtnGCCxs0CF7Ruum3oCyKFMj1M1tO2fJGHS6kZyf9fj/d+4lKxpn04SZz56ZK7Td0GfVTsG/wzgw197VmH628MgvMVUNF7PwnOfR7TKn2lrQvCouEp9hfhb9AiudpysCHAWqnXgVOcbieTWcm5T1nOnVoXu0cI6POROdFOPHgkRqzApFL1WYc3Jy9Gs76CAAeGh0RuMGL30GswJ3xbmo5XGjaUr24hl63ALofwG9JM9WumY0g8GbiIOSQxjs4H4KTSoE35LqnIMYZC/TTw162y/6F49LaapvN+v2H+Zn53MTmZviTzRhIH/71UfWDohTatzWQdG1goTY/1rJevN13AC18Xg34jJGsAf9faAm8FMW1uteepwgDFMlWhqOSFYjn2fEkVUdN72nYfHOAYcOjH1kuq91yDQWSl5aFIoGpSI+ew7DIQZsvBOQ1rF+rZl8SLwVAVpjfZCoA8fyRWPjZT/1YIxQXYoaoa1udF74A7pQ2aqUQUSSN0PiHicY1xzvNjW4LDfMu1E3deqs5QTF8nrZ4wIPHUozwJ2BQVIeM5OLZmS2Wuui/gVJYPmlP4zZXJxCb5beSIEns+PVULhIV3NKA/VdLEcqfCx2M4kGYEvXsT0JPCTibK9dvnPJXzkvs1eFHOOda9AAFaexfQn6n+c/Z980OJWNclQSmKfX9GkOFCTiKmt0ywhUGdc2QRKNtItfYmVSxXzK7AYfIcLj90ViQqTPwSvHTU8Z/KddADIrK4NZWh
+    properties :
+     x : 570
+     y : 80
+     width : 27
+     height : 25
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Sélection du fichier
+         sNomFic est une chaine
+         sNomFic = fSélecteur("","",<§$0000§>,<§$0001§>+tab+"*.*","*",fSelOuvre+fSelExiste)
+         si sNomFic~="" alors retour
+         
+         sNom est une chaine 
+         sNom = Fextraitchemin(sNomFic,ffichier+fextension) // Nom du fichier sans le chemin
+         
+         // Déjà dans la liste
+         si listecherche(LISTE_PiècesJointes,sNom)>0 alors retour
+         
+         // Ajout
+         AjoutePieceJointe(sNomFic)
+         listeajoute(LISTE_PiècesJointes,sNom)
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Supprimer
+    identifier : 0x2389de1e13c2955a
+    internal_properties : CAAAAAgAAABwl6cqX4dscaE9sdG3G3VhPMHZP5VECeSzNy3tPhVlfJYkYsynH5siedPIZsvF/EuRSpvZBNMqOTzWvCifRhBvJR0cBgzE9QdaIjrTWszxPqLjO9soTGRIg7qS4ZdU6dq0eQF2VgouBKTsha18Q3UalRl4/AlAp1zE2JcByUOD6GzfE4ZbE51q0jf0PJgsYh9qH7x8GpNhVwlsd5yY+Z+IdDIHnxejj7XYNphEDTCczHuF9MTl950b63bIw0VFx0shRx/TcMKnyrg9Erhj5xum56CdEZxfOxWnPHsd2IrkypjrdZgqqCmpmWM4HahzHgqOqXiDuRNdcl83dB6dP2mbARZWLgftynw/twbpbw+FzRT1B+AZxg5dOrXmcv/pjwXRdirv975b3ucKYpxtgKrWbwBJVuzr8nT+kDE9vkq4xYaTZFLfkuljY33hgojIDn2Res6AiyyVYcL8GdFBEIdHOPbr9/qToToa2YnZNQYy3DXQUsJLc2jjsMeJDH6mkjVVzFy9m2jlmOc1RCufziw7+5y6xAZGAIBHIsOT+/1ExDWOaqRzWGN/0K96RRPbIPT8bn7NNlD1ixW2nxbwiPXTsuXNgZeenc1kQZ+EbLYdS3totSQssp2An2ee2/HLMi58s7a6eLi+eUNagv1rJJ5sotd2aNwZ9v2qsR2IPtIF2LvmugXwSGNpsrIHYS+LmfAGz79Mo9/CwBi5kZQGlo2l5Qk5qe6VWzH/wGVeWjud0OL2mNXDQbdR6MlXO8TsVA/0rgnDbSy3gpoR1f92+aga9HvaykhVKhC2H4mIHn6pdObVu4TxFNR/PFuCszk4lMEBVU4dDHbDFqtnlhcg8hZ33HU2cDEpG5/vijS7elo8aUm+r6k/cuh8Fi4+6ymuIkZacrRhT6ummAtOBZ04vGJkE74WSwwd7BrwUt4p4dF7Mv4z8NiKOI+FVhnTRuE9TzC6ELmq6JY8pYhas/GzraGfIq4YcDTvR7e3mnQDTbJfYmWWHgEmOliHOQoGwPNDDBpnFb8AOGt5g+eYMyFlfoI2wk8UpGGj7oMd7ZIx66FeCfK4mbtnDNwuCUykLw==
+    properties :
+     x : 570
+     y : 110
+     width : 27
+     height : 25
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         si LISTE_PiècesJointes<1 alors
+         	erreur(<§$0002§>)
+         	RepriseSaisie(LISTE_PiècesJointes)
+         FIN
+         
+         // Suppression
+         SupprimePieceJointe(LISTE_PiècesJointes[LISTE_PiècesJointes])
+         listesupprime(LISTE_PiècesJointes)
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Visu
+    identifier : 0x2389de1e13c3955a
+    internal_properties : CAAAAAgAAACCA6fS+xZ2JokNJM3FQoV/YQRhg5NUXkbOZgUt724AeOrvEayDBMzohXUfmgQ/DS8Ep9NlzDQHeiXpXam1hloPlkIkXMCTzv9grDyW5l3+DCYlYOcTtKPTigyRYLg9KC/FVNmWVf2IasaHjLcuy5Qk0ZAdHYKIYT9r3mht/rNoXfDhzeCn5z7Axb6Svqo7wTywolrGrwQHab8bRoSqHEBjQdwM0JSibyzqIqT5qprYSgkuT2LCGI1C2CPwGbS01PnrlPxK3QxbeEXWW4i2or6x/cWD7GSgt44OcRy4uPDUfJ7DI32Cer6o7/J67u7sd4lvDC00/8GPMPgpc/ShuyhBGtNlOs0EPXSHfaYV0lPm6oJkLuC4QcaA9vWt7YWSkALLAG89tAoGaqVPACpilzPPkSxCn6vxYUoFBptetoQp0YyFvA+yDTltZH9eloiC3u95y6xwVm9JG2Ipmr86rBEVyJyvUb+YLEpzjUavVYAJrA1KmWRiKqCnTe/wbtgD7K43p6wswSSi67fwcdVdTN++JeAudb8EZi0yRpLhfiiVzgD31u0kUbg88AJx9M2MjzzNyj1bvAYz16L0g/jGIUpqwJtjDFyiq7s2pSs3v1UPmSTXfjbZbh3AllTx2UbbPj7MKwUtmbYpsUNMoAeLF5+r8EMMAj06wETAyxIyX1xxazzWwL4+CUZ1KZ8rZI3/me8Gc38Zzqw5BCNVsPNITsa/Wkmf4/gsWWG7wJfPCqiXuNLMn36mnVJ+2p2kKL8IZg3vi8GIkfSd3sRHk0tjyjHyy5a0qGrhHlAC1xHr16a3xv5SqtXZ8jwv3LgvDArrG9xVA7kHqItdfzixeMiYeFVOXHAcJ4uiQSU7AIWThhXEJ2T5dJh0sY1MeOFJom9mTCYJnArKed5Kmm6HLB0pMuJ+pYZKxTN1zUk6LavGh3z5nQVMdg4Zn+wBV5ChBRucjFKlnR4yF/HowmySY9YD6y9hUm/MzLUjAl6ftI8U8Pkhk+Y3FPQdRg==
+    properties :
+     x : 570
+     y : 140
+     width : 27
+     height : 25
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         SI LISTE_PiècesJointes<1 ALORS
+         	Erreur(<§$0003§>)
+         	RepriseSaisie(LISTE_PiècesJointes)
+         FIN
+         
+         // Extraction de la pièce jointe du message
+         ExtraitPieceJointe(LISTE_PiècesJointes[LISTE_PiècesJointes])
+         
+         sFichier est une chaine
+         sFichier = ComplèteRep(fRepExe())+"PJ\"+LISTE_PiècesJointes[LISTE_PiècesJointes]
+         SI fFichierExiste(sFichier)=Faux ALORS
+         	RETOUR
+         FIN
+         
+         
+         // Affichage avec l'application associée à ce format de fichier
+         SI LanceAppliAssociée(sFichier)=Faux ALORS
+         	// à défaut d'application pour visualiser ce format de fichier ...
+         	Info(ChaîneConstruit(<§$0004§>, sFichier), <§$0005§>)
+         FIN
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_OK
+    identifier : 0x2389de1e13c4955a
+    internal_properties : CAAAAAgAAACxqG8MxyWO2/OVndtCg4xl2QrmKZq4hSFqpb6Z2SGN/R5MeTcxQq2wr1Czg+IniuAe14RXKt/1psrqbqPlABS1yFFLCGeLxn+zbKZSGaroxLOGRzfCJYCfUB+Szk2Nb/iFaL6iHqJuEl0hvfwVNRMsyZoM0YhPytqfO+OmeH5GcQoNX6Gh0kDr4sbpWnw1Xe022swgOHZZD5lepX1suEpgjKKqpNDthtVGphootkuz5Mwm/f+/dQJmyU0ZTKiixD1Hs/pCEGibeMtXe69/1XZAh9P5nvvFFC0+pKd8o1oLW+i5re8lK0/I9Uj/7DPqV2eo10jOMZaisufoNLuAdXif4Eh+BStctOxMq+3wpAGNcclvjfqHbI3FAcmGl747W0c7XslEQjQo+mqQnDEMYiHnQhmp3LW9qezP895tV6/V4tvYbw2iEdchbnZ9T5WRN4C8n5okMbhyaKU6gMU32BL0LHAQ11tryFqhwp/So+XpLOjcp8dBYNpbzRwB0eSziIDQTUc9PwxAHsecXbTVyiVcv34CecCEDKTW0VY7EfUjuN5ivPhWLobkFX/1VbxYpDbRMJyTdzphBA73XeSnEdTwh4rG2JFoY8ge37XHWbQkGZxTrjqPjuH9aASf0fgCGie6pLw25PaptGNfS8QdiNRxmGrqaTAmmLKntlQjOifcx9ZPhhtkLROBPQzAhMtdDCbyPiNtlcJa0HjoZfTByF/fi9EJmF3/F1BPs96q+ar4fbRHB3122Ow513g0g4vCB8SgjYVjxvegskINzXXdlRWlsBTiB3rzO9XgEB1pDW+E3qFuj5XTR0r2XpYD0cznma92dB1cHe+QPUgxKu47zcZ4dFNHiTO8tbxGYiggMoBaD3xV2AnQKqLpirABKxACJMVhbD5ANXZNvpRKAG5HoU8AMcAO5gYofvkSDWAEHNhLlGFjTHAhkaifIF6+a6YuYqAqLEN8ov4QGHNhyAxinzTWX5uoKXO71pnSB030EesUIViJIXD4CsfWWHlRzyOBkg0B4PxKfkLZBhpa4vfQ8gKrb/VoUKHkp/4zyKlIN7HBKA/wkIs2wM+OBKkzjB95MMY+8V22PpNWT757ovHThteQFSWgqeCiol7ZUE5FVLf2NcOMt6AbqxAHiESpmfFeKeFJpX3SxwXA5cdfVpqBc769
+    properties :
+     x : 725
+     y : 515
+     width : 80
+     height : 27
+    type : 4
+    code_elements :
+     internal_properties : CAAAAAgAAADc1xUDc4BBEvxzPJ5WV/p0Spi5OtvH4Zi1smAi4iCHbYIQ7MVZF0lJd9HGfCYRpZgQmia9nOebgcKhZAlor84xo1qUop5Nc2ws2m7F3Lharr8+zAOorUaoAJWd
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         //Exécute le traitement défini dans le modèle
+         ExécuteAncêtre
+        type : 14
+      -
+        code : |1-
+         //Exécute le traitement défini dans le modèle
+         ExécuteAncêtre
+        type : 18
+      -
+        type : 161
+        enabled : false
+     templates :
+      -
+        name : BTN_OK
+        identifier : 0x1543d33e012a436d
+        code_elements :
+         internal_properties : CAAAAAgAAADMxwWzA/DRooxjTE4mh+pEekhpqqt3MegF4jBSMlB3vTJAHHXpx1lZB5FmvAbBNcgAqjatrJdLMbLRFFm4f/7h8yrk0m6949xcip6V7IgK3k9O3HM43XZY8IWN
+         type_code : 4
+         p_codes :
+          -
+            code : |1+
+             
+             
+             gbOK=vrai
+             Ferme()
+             
+            type : 18
+          -
+            type : 161
+            enabled : false
+  -
+    name : BTN_ANNULER
+    identifier : 0x2389de1e13c5955a
+    internal_properties : CAAAAAgAAAAQt1CFZDxfh/JLUvJKA0IzWaB7aEXpgA7U4LinWwAJLHBfSLK9OlMi/Brg7UFmAbX/QPKnnsnoZPx31Drsh2RQOcGjTjWLhflR7HZU8fqRAjbNI325Ti7EYyDnrjs5EpSttOdMwB5wInCf8VrF6c6uPWkZrpI+O9bfu/lhBzWg1kvlerAEs4/71L9/+MYuBR+AlYB5uzZPdgqpILeGGKmdnjiYsh6ZQtRCPs8/mjlpnjuJ7jCeU2JhrPr+OCH9ytk6+TeFb3YVKmGcY0a/yLDnhjNhUw0Zl6+ezPtJxp4LDPutPe3xUApd6GTW1li4FX5kudt7AsfdUH+yE4hDimf/e4FhI/AOBCKrmMlMKeZyRe+hR3VncCFJV3flUGMzq4c6OA1HG+GyKnYgk8YezEHIAUDUjwW3Ogy1uWdLwsRPuaOUhQ3emoQKGbz0JmvLdJfBL9sQOTuxq7VE+pnnM9OhQdQJiAxqLSNtdn7x4b7sz4BONHQb5qkpmDm0kgjwWpTyUB09UBRtVxTA69z1yfoOnsIId46kQERXbqc6QZ7tl08gO54pjyKugqn2vtj/ybjyHjNsIiTNIWukpmVfXS9I5epuH5xkJ5sv8Wi6xtwgko0OZrBDhC09nHoAkbSsyAFxI0QllpZgqmYKA/z6wGTAietTRixMWTFDMiXbQrn7783QMqeVNvWaWyzIMcB0ouzCRTgnpN5tluvrKYewsO27rHQjXvc6/aAtODJ4NHGPEqfXdF/pHGFj19bG4xfiwiPkF6TIBHPquP6Uuvm1OS1snIHd1pwoQxezu5BqNARNGapxX4fZRpHX3O4uzePwYhg6L3rVWWvQb66AgU0z7lwGPAFEFuRERXVR1yh9GChkDNoZi85ykuQ4lvv/WXOU+w4CZdh6Y/0KB0wzxQWsQWu80GaaW8tKENvIs/w291u1kRpuxJrYUESEzheAYRNdma+pbQ/RCD3UiSSBxwNvLb71Q50DyjYy3F3yV2j5jePJd3jfAWgZTWBIEFrCcq4AA/oxR1jlWvZ9I+fFax8ThOQGqoqLBav3Dr/EVOseA7uBvAfQdbao8PviHuzEzw==
+    properties :
+     x : 724
+     y : 548
+     width : 80
+     height : 27
+    type : 4
+    code_elements :
+     internal_properties : CAAAAAgAAADc1xUDc4BBEvxzPJ5WV/p0Spi5OtvH4Zi1smAi4iCHbYIQ7MVZF0lJd9HGfCYRpZgQmia9nOebgcKhZAlor84xo1qUop5Nc2ws2m7F3Lharr8+zAOorUaoAJWd
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         //Exécute le traitement défini dans le modèle
+         ExécuteAncêtre
+        type : 14
+      -
+        code : |1-
+         //Exécute le traitement défini dans le modèle
+         ExécuteAncêtre
+        type : 18
+      -
+        type : 161
+        enabled : false
+     templates :
+      -
+        name : BTN_ANNULER
+        identifier : 0x1543d33e012b436d
+        code_elements :
+         internal_properties : CAAAAAgAAACraWcTA9CBSODUlizg2hmwbwP54ITYvto0hqoG8PIuv4x6Wf9BHhd+gcF3sqV5MlJfbk7OSRYLJoK38PonGY5mxby6k0f+YpzmhtLCzCxnPSVz6+aKm2wZMmOSOau1lwEwy5NN4TgHT+8BZbWIRLGvX0yWQQ==
+         type_code : 4
+         p_codes :
+          -
+            code : |1+
+             ferme()
+             
+            type : 18
+          -
+            type : 161
+            enabled : false
+  -
+    name : LIB_WD_OUTLOOK
+    identifier : 0x2389de1e13c6955a
+    internal_properties : CAAAAAgAAACsWFecxYGcSXx/mWjyJiDkjtdWd4m38JFanVsVCzfIP+hubATWOF56D3QWox1qFLOqOxJA1lpouZERMfQrGaWGTSiq8LnT1BEbG0QeULEjuuNEk8Q8wmaxu6yTPmxHYVJkJDpg0UrgBO601HAAkS5tSokrQALthq5gywdzc9Y/UBYVo6ZD/hSrcZBsvFUhNHVaHnKo3FAtd9NNcsnz3h6vcm+Q45Y3arCFxISCHQ/KCKQXB9X85TgCo3hxjBxVLTiyEl88lt4CHrVqRW9NNYesu+TJKWy3SV+ZJXtGsx4gx8m9Sa0jnTTb76WJh0qaBA02gURLB/bk48paOEg4nN27tYu9hmeDy44fhOEnKnNoDpyhq6XETGCuaPN8BNEfpSBNTtYjQ/XDBTm61pAuvGwgwrfW1zkf61hNp7P1LUNM4Y8n5hdxieHs0623mYMnD9uzmF+VmJDFpy8eExrbPStunM5yfqsSrIhiZQ6VN9Sd07m9
+    properties :
+     x : 20
+     y : 20
+     width : 187
+     height : 40
+    type : 3
+    code_elements :
+     internal_properties : CAAAAAgAAAD7MDJQKN3u8V9WIa1FYMttFaGSo6x4ajPcjfqoarohObTYALvHxSH3VYF0DtKiCvNtmSdykXgaBAnUGV6FqNcovPM9CSXG6uVVs7e8y6lrvawjKaYLApF13bK6
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Titre
+    identifier : 0x2389de1e13c7955a
+    internal_properties : CAAAAAgAAACyA8YNV0nf2SdJn65wlvoeJDpQEhitm/1MY5NFqTavr55HeEcd/InUl1GPSRkPJldp04s9Jm6nHPd4LRcUvSi0PjLRZuraSLCg+8YhLVM3oWNK3BjlZORBTn/f3ZIzl9LMaJmXQ+fRCtn/XLdABGRMvGQr/D/apVQFarqlbPIg6ayqDXv3H9o8U9r7APeXulkhmPHG1/BxFtxmXYinCegMB/ARmGBn0tFQl9CJUNj54pENvSa6ZWBP+bbXbeRL6ciRQKDGXxEe70HvX9JlS5CNh54UuhmMN2xpI+wAJFUTgkihSUZEbfq5J/rCW5bTHXuXFybuBU/V+T4NRR1+CQg0PFryOxvbscszh5LOojBGddq0J1ajBJcn2/gHV9SoqkAFqFNFin4KejbrWpJCoO2GB0KQQXjLfXPo6J+nTfvbSVeeY0ukcf0/72aStGWi4JydPD4fdnREKzIxsLYFal3a0HFF542UiUkn13gmPrf+D/2+JjdCiHeEWF6XAIQrAArfWZ2/4i227AO6AuIOPTP7mNGgusqZHu6MG/aEPlKBgo8tLePuX2jOUPEQSa7aoPB1GeTUbTY=
+    properties :
+     x : 346
+     y : 21
+     width : 251
+     height : 36
+    type : 3
+    code_elements :
+     internal_properties : CAAAAAgAAADLwAKgGO3eoY9mUb018BvdpbGiM9zIGqNMHWo42kpxqcSo0As3lVHnxUHUTvJy+sN9CZeCgUjqVFlkqc41GGe4LGOtmZVWenUlw0csexn7zVxT2XY70mFF7YKK
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         //Exécute le traitement défini dans le modèle
+         ExécuteAncêtre
+        type : 14
+     templates :
+      -
+        name : LIB_Titre
+        identifier : 0x1543d33e012c436d
+        code_elements :
+         internal_properties : CAAAAAgAAAD7MDJQKN3u8V9WIa1FYMttFaGSo6x4ajPcjfqoarohObTYALvHxSH3VYF0DtKiCvNtmSdykXgaBAnUGV6FqNcovPM9CSXG6uVVs7e8y6lrvawjKaYLApF13bK6
+         type_code : 2
+         p_codes :
+          -
+            code : |1+
+             //Exécute le traitement défini dans le modèle
+             
+            type : 14
+  -
+    name : LIB_DateModification
+    identifier : 0x2389de1e13c8955a
+    internal_properties : CAAAAAgAAABsEsWuYtToRpJdYPI/tztXJQ/fKadVa9nEq5XlxcckG/F24uceNyVXWSGKcrME8tU96wlwnAAwasOu82kQbAYL/heXsxB0PPFoy7CXkQwKtPpZ71U/1EfmONN0YUHJ/8zQwN1HQ7cZmOT3appu6WDWlESTjkdJlJN8P1eES6XCtzZC4ktBZQ/aclQ7kxPS2dWZHRE7nelrQl79V6x02ENGGB02iW6nXIC7hezy8RDJ3Yf1bgdTVFcTPhz7dMI+ioBLHB9M1SGvMiYZlMRVXJAu/i7nmC9mxyF7SsT4UKsVVqZcIfA6i9rABjJgsfWyrI/lXB6XrepMpB3oUIhwNoVqdmNq7zsVHq8lcyxPxCDmGkZZQDnF11zEBkBbwRHz0lJ+aNiF9B2TdGIjjP3QY8A1hCFZnNIzzpNxmxRPRov/dRIW2RkQYiKVm8KVbBBNQwoVoKAVFJCH4vNbtDSm4WFGqD8ScVi42YCURg1Bh/ydyEYyu40CHdhYJ2Ivi8i1BRb8aEHCeFpRnmTGsYsSPv3LWxF6nrKwf6n/p7pEhCpbrGat6dMi6r9bnp4efC2y8mLmQyTfM5z4vGvbjrDa4Wik2t9nzWULw+RkStP1WpDsC+e+Ze8AfhwpjIMGQB26MZDC/ZqVQqhoBxRoozM4kprA7oNcm7fXCjbbELBCX/7agzF1qSV/FLjxQXAe3mHkZ89VW7Ib9pUU2/pHrMSdAOTz5+viyg2JMTg9Kzab6FK/1WLB2tNO8aaiT0vZAbDG+zCbCnnGJQ6xjU2XAaqpOKZH9+rj2K6mJU+Po1luOu7shKKkgxHIb9N4gi0D9KrTRyKX6kbi+bOJoKytzRSfEFDAQPey0cyYSQ+x4FnAJqPjfNXNXLfY0Fc=
+    properties :
+     x : 675
+     y : 121
+     width : 277
+     height : 28
+    type : 3
+    code_elements :
+     internal_properties : CAAAAAgAAADLwAKgGO3eoY9mUb018BvdpbGiM9zIGqNMHWo42kpxqcSo0As3lVHnxUHUTvJy+sN9CZeCgUjqVFlkqc41GGe4LGOtmZVWenUlw0csexn7zVxT2XY70mFF7YKK
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         //Exécute le traitement défini dans le modèle
+         ExécuteAncêtre
+        type : 14
+     templates :
+      -
+        name : LIB_DateModification
+        identifier : 0x1543d33e012d436d
+        code_elements :
+         internal_properties : CAAAAAgAAABTYYRPYejTKc3LPzIThBvs2e6AnvmdJXGM5kyh9vb5BAyT4AR2y4r0sknymvFqBr2d4V6mlag2kNd7kcH/RuJi/SDApwt4rP9ucXDsqZ7ripYea1Gnr/ClZsjy98tQSYO6KeErFYKkPxnUtmyI
+         type_code : 2
+         p_codes : []
+  -
+    name : LIB_DateCréation
+    identifier : 0x2389de1e13c9955a
+    internal_properties : CAAAAAgAAABDGO+igOkMiSWbmRxb5c2pCtkOd+XKu+iTYxgUMgQIDLIeuDwebpwgp1/RrFb8aX3oCR+9nitzIABU7J/bYUWRss2nERhmJfm5hjFhzxlpFS4ypgGy9QZyBHFl8vPewtWji2e2MC4e3rhVNTC3stu84rNI5RKlmUe0ndqd7lZWxDiNWrLeBCbgSfr0q3Cm9pjxH5ET1SeahnCMbSaiCJyyVBsc039nI1tjnfRnkYXAwGp9TKDDdICQAxlxXmcY82jzKlVXMDy/fbwmr0s8bf4VJiJevD32uFMP35SFZucrkPntVjZgztzPXxWzyNs4h0RNcF5PPmQJHGznyvUjfFoE7Ls2mc9cQ+MQEzbfXSLr7LYrOjlhvr42UbpHl/jAbEzfzv7zXBV6XI7zOT5/56ZUU2LIaQiZPJo9QbEmLuUjSOBdkAPPcS4Oa1uGVLS49Fi4a5znF8C/6XL0dAG+gmnrwfYdnDNu8wn6XiH+bDFBYPCj4Ff0STCKtWVelfGV2ehRiNz8avyLxcFNTr07e3wb8nkL8pyEvyGUuA5x8wEFn1FT8ShKJSRUQUblDwGhs6RNw2RjfK0ykrtvneP92icT8qPpVbHiB56WXP2WQ2zYfO99FFj1T7yiZalBZjHZ8VW22qVKdFBTwx+Se3w9Kb/QA7JCHbwbhAa3yER9/fjL+zMYk9rtOxSmgi+XCFNlYbqh1GHysByXFPkbg3qeRvqLbJno69nLJ4PoDI4DZXldCp2Zfs8BqHfBmua1q5uDf4cmCdrR93xxsYgLLdUXI+V4f61iO8t2n3B4mTXsvsnCepC82QGruwsKu2GJknOKg7m8ccSZ3TnRgVXg45QFrT8zG+DyA7mfml5TmbM9RHjcK3wZTjk=
+    properties :
+     x : 675
+     y : 84
+     width : 277
+     height : 28
+    type : 3
+    code_elements :
+     internal_properties : CAAAAAgAAADLwAKgGO3eoY9mUb018BvdpbGiM9zIGqNMHWo42kpxqcSo0As3lVHnxUHUTvJy+sN9CZeCgUjqVFlkqc41GGe4LGOtmZVWenUlw0csexn7zVxT2XY70mFF7YKK
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         //Exécute le traitement défini dans le modèle
+         ExécuteAncêtre
+        type : 14
+     templates :
+      -
+        name : LIB_DateCréation
+        identifier : 0x1543d33e012e436d
+        code_elements :
+         internal_properties : CAAAAAgAAAD7MDJQKN3u8V9WIa1FYMttFaGSo6x4ajPcjfqoarohObTYALvHxSH3VYF0DtKiCvNtmSdykXgaBAnUGV6FqNcovPM9CSXG6uVVs7e8y6lrvawjKaYLApF13bK6
+         type_code : 2
+         p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x25818304ec24062e
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAD4C4Cu0KY+X63fB1irpNEMlw6j8PXMhY/Jz736FHUQqhbZ5ehCDHBwKQ1avkztlxmo/XMZa0uzd2MJn6bGH1KSrHWn0QHpbM0eFp6aVGy2PdQFkILWOt1CduQ9QBtM22g=
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      procedure FEN_PièceJointe()
+      
+      
+      		
+      // Affichage de la liste des pièces jointes
+      // NB : 
+      // PJ=pièces jointes reçues
+      // PJ2=pièces jointes à envoyer (par défaut : celles reçues)
+      
+      pour i=1 _à_ email.NbAttache
+      	ListeAjoute(LISTE_PiècesJointes,email.Attache[i])		
+      FIN
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      renvoyer gbOK
+      
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : ExtraitPieceJointe
+     internal_properties : CAAAAAgAAACK5Zbgb1cAEeiYNyGGBHu+uUb+ClbRHcYanPQBkeoKG0wJi7oplDBJQmo22E746a7q0uaDdmg1k5JO3Qb8rtThGRooDKgo3y4AqJIDKxAfREVKuoy8sT5dO2iTcy6zA6qqWXoqA8RoIxfCfZ5HxxpH4EZcDfust8y3PKvnDBzMARHTiwmqBUwp1/R2ftO3YhjLpLe2aWI=
+     procedure_id : 1407900578978239834
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //[ <Résultat> = ] ExtraitPieceJointe (<sNomPJ> [, <sRepTemp>])
+      //
+      // Paramètres :
+      //	sNomPJ : <Nom de la pièce jointe>
+      // 	sRepTemp (valeur par défaut="") : < indiquez ici le rôle de sRepTemp >
+      // Valeur de retour :
+      // 	chaîne : 
+      //
+      Procédure ExtraitPieceJointe(sNomPJ,sRepTemp="")
+      
+      QUAND EXCEPTION DANS
+      	SI  sRepTemp~="" ALORS sRepTemp=gsRepTempPJ
+      	
+      	// Re-positionnemment sur l'objet OutLook correspondant si on n'est pas en création d'un nouveau message mais en relecture d'un ancien
+      	si email.ID <> "" alors
+      		SI PAS	EmailLitMessage(gnIdSession,Email.ID) ALORS
+      			Erreur(<§$0006§>,ErreurInfo(errMessage))
+      			RENVOYER ""
+      		FIN
+      		
+      	FIN
+      	
+      	
+      	// Recherche de la pièce jointe demandée
+      	sNomFichierAttaché est une chaine
+      	sNomFichierCopié est une chaine 
+      	nNbMsg est un entier = Email.NbAttache
+      	
+      	POUR i = 1 A nNbMsg
+      		sNomFichierAttaché = email.Attache[i]
+      		SI sNomFichierAttaché ~= sNomPJ ALORS
+      			// Extraction dans le répertoire courant
+      			sNomFichierCopié=sRepTemp + sNomFichierAttaché
+      			EmailSauveFichierAttaché(sNomFichierAttaché,sNomFichierCopié) 
+      			RENVOYER sNomFichierCopié
+      		FIN
+      	FIN
+      	
+      	RENVOYER ""
+      	
+      FAIRE
+      	Erreur(ExceptionInfo(errRésumé))
+      	RepriseSaisie()
+      FIN
+      
+      RENVOYER ""
+     type : 458752
+  templates :
+   -
+     name : FEN_PièceJointe
+     identifier : 0x1543d33e0129436d
+     code_elements :
+      internal_properties : CAAAAAgAAADyQC5k9mP68XGHR91lU+JpFpp4WRO/U38JVZdDbUOBCiaZoqfRhpZIk+C2FW/gg2rxotnVlv3HdcB3bTS8wM62sXGZ8OpzwT84SpUhhWM4DJA2EtExLPtmD8B/FE4SMJipTCwkGMGO1GCylkQf3R4aKJVveA==
+      type_code : 1
+      p_codes :
+       -
+         code : |1-
+          
+          gbOK est un booleen
+          	
+       -
+         code : |1+
+          
+          
+         type : 34
+       -
+         code : |1+
+          
+          
+         type : 234
+       -
+         code : |1+
+          
+          
+         type : 165
+       -
+         code : |1+
+          
+          
+         type : 177
+       -
+         type : 180
+         enabled : false
+       -
+         type : 230
+         enabled : false
+       -
+         code : |1+
+          
+          
+          renvoyer gbOK
+         type : 2
+       -
+         code : |1+
+          
+          
+         type : 11
+       -
+         code : |1+
+          
+          
+         type : 12
+       -
+         code : |1+
+          
+          
+         type : 17
+       -
+         code : |1+
+          
+          
+         type : 13
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAhkp7riEcuSeiEniBG/Ag2Y70cgFFYXw/Yd9LS4tiE1LCp1bSz0+Znv/7I9wIllGX/f4ng6stQvgCN+jTEVFPUM0okByzyYHVpcpR7+ZrjRA4HbpmlCi6BjcYx8hW1aN0WbhrUmOL+I6L5NZ76
+  original_name : mails_pj
+resources :
+ string_res :
+  identifier : 0x3c0216ab49a268f2
+  internal_properties : CAAAAAgAAAD3JNAOZuwUWny2R6gXXuJ52Kg00MgYV1soPcc9CZtWpTGHVjWtTnub/Mdsx6dYQD1F9opUwA==
+  strings :
+   -
+     text :
+      fr-FR : Sélectionnez un fichier...
+     index : 0
+   -
+     text :
+      fr-FR : Tous fichiers (*.*)
+     index : 1
+   -
+     text :
+      fr-FR : Sélectionnez la pièce jointe à supprimer.
+     index : 2
+   -
+     text :
+      fr-FR : Sélectionnez la pièce jointe à visualiser.
+     index : 3
+   -
+     text :
+      fr-FR : Pièce jointe enregistrée sous <%1>
+     index : 4
+   -
+     text :
+      fr-FR : Le nom du fichier a été copié dans le presse-papiers.
+     index : 5
+   -
+     text :
+      fr-FR : Ce message n'existe plus dans OutLook.
+     index : 6
+   -
+     text :
+      fr-FR : Saisissez le nom du contact à enregistrer dans OutLook.
+     index : 7
+   -
+     text :
+      fr-FR : Saisissez le nom du contact à enregistrer dans OutLook.
+     index : 8
+   -
+     text :
+      fr-FR : Saisissez le nom du contact à enregistrer dans OutLook.
+     index : 9
+   -
+     text :
+      fr-FR : Saisissez le nom du contact à enregistrer dans OutLook.
+     index : 10
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
